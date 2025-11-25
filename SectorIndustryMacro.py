@@ -11,6 +11,7 @@ import numpy as np
 from lxml import html
 import requests
 # reading CSV file
+from screeninfo import get_monitors
 
 file_path = 'IndustrySectorTickers.txt'  # replace with your file path
 ticker_per_industry = "CorrespondingTickersPerIndustry.txt"
@@ -46,11 +47,11 @@ filterButtonX = 1822
 filterButtonY = 760
 fullWindowIndicatorSettings2Y = 800
 fullWindowIndicatorSettings3Y = 850
-greyDividerColor = (42,46,57)
+greyDividerColor = (46,46,46)
 greyVerticalDividerX = 1606
 greyVerticalDividerY = 715
 greyHorizontalDividerX = 900
-greyHorizontalDividerY = 692
+greyHorizontalDividerY = 693
 
 #x=1778, y=770
 
@@ -155,35 +156,35 @@ def addTickers(symbols):
     return 1
 
 
-def assignPixelsToMonitor():
-    global symbolSearchButtonX 
-    global indicatorSettingsX
-    global referenceSymbolButtonX
-    global resetWindowX
-    global rightPanelX
-    global arePixelsLeftMonitor
-    global filterButtonX
-    global greyDividerX
-    x , y =  pyautogui.position()
+# def assignPixelsToMonitor():
+#     global symbolSearchButtonX 
+#     global indicatorSettingsX
+#     global referenceSymbolButtonX
+#     global resetWindowX
+#     global rightPanelX
+#     global arePixelsLeftMonitor
+#     global filterButtonX
+#     global greyDividerX
+#     x , y =  pyautogui.position()
 
-    if x > leftScreenPixelsX and arePixelsLeftMonitor:
-        symbolSearchButtonX += leftScreenPixelsX
-        indicatorSettingsX += leftScreenPixelsX
-        referenceSymbolButtonX += leftScreenPixelsX
-        resetWindowX += leftScreenPixelsX
-        rightPanelX += leftScreenPixelsX
-        filterButtonX += leftScreenPixelsX
-        greyDividerX += leftScreenPixelsX
-        arePixelsLeftMonitor = False
-    elif arePixelsLeftMonitor == False and x < leftScreenPixelsX:
-        symbolSearchButtonX -= leftScreenPixelsX
-        indicatorSettingsX -= leftScreenPixelsX
-        referenceSymbolButtonX -= leftScreenPixelsX
-        resetWindowX -= leftScreenPixelsX
-        rightPanelX -= leftScreenPixelsX
-        filterButtonX -= leftScreenPixelsX
-        greyDividerX -= leftScreenPixelsX
-        arePixelsLeftMonitor = True
+#     if x > leftScreenPixelsX and arePixelsLeftMonitor:
+#         symbolSearchButtonX += leftScreenPixelsX
+#         indicatorSettingsX += leftScreenPixelsX
+#         referenceSymbolButtonX += leftScreenPixelsX
+#         resetWindowX += leftScreenPixelsX
+#         rightPanelX += leftScreenPixelsX
+#         filterButtonX += leftScreenPixelsX
+#         greyDividerX += leftScreenPixelsX
+#         arePixelsLeftMonitor = False
+#     elif arePixelsLeftMonitor == False and x < leftScreenPixelsX:
+#         symbolSearchButtonX -= leftScreenPixelsX
+#         indicatorSettingsX -= leftScreenPixelsX
+#         referenceSymbolButtonX -= leftScreenPixelsX
+#         resetWindowX -= leftScreenPixelsX
+#         rightPanelX -= leftScreenPixelsX
+#         filterButtonX -= leftScreenPixelsX
+#         greyDividerX -= leftScreenPixelsX
+#         arePixelsLeftMonitor = True
 
 
 
@@ -213,9 +214,8 @@ def changeIndicatorSymbolInput(ticker,indicatorSettingsX,indicatorSettingsY):
 
 def changeRightPanel(ticker):
     print("this is the industry")
-    print(ticker)
-    pyautogui.click(rightPanelX,rightPanelY)
-    pyautogui.click(symbolSearchButtonX,symbolSearchButtonY)
+    pyautogui.click(resetWindowX+leftScreenPixelsX,resetWindowY)
+    pyautogui.click(symbolSearchButtonX+leftScreenPixelsX,symbolSearchButtonY)
     pyautogui.typewrite(ticker, interval=0.001)
     pyautogui.press('enter')
     time.sleep(0.7)
@@ -226,15 +226,17 @@ def changeRightPanel(ticker):
 
 def implementIndicators(setting2Y, setting3Y):
     try:
-        assignPixelsToMonitor()
+        # assignPixelsToMonitor()
         ticker = getTicker()
         print("ticker: ")
-        print("hello")
         print(ticker)
         sectorSymbol, industrySymbol = getSectorIndustry(sectorIndustryData,ticker)
+        print(sectorSymbol)
+        print(industrySymbol)
         changeIndicatorSymbolInput(sectorSymbol, indicatorSettingsX, setting2Y)
         changeIndicatorSymbolInput(industrySymbol, indicatorSettingsX, setting3Y)
-        changeRightPanel(industrySymbol)
+        if len(get_monitors()) > 1:
+            changeRightPanel(industrySymbol)
     except:
         return ticker
     return 1
@@ -270,7 +272,7 @@ def on_press(key):
         # print(filter_pixel_color)
         
         dividerHorizontalPixelColor = pyautogui.pixel(greyHorizontalDividerX, greyHorizontalDividerY)
-        
+        print(dividerHorizontalPixelColor)
 
         # screener_open = filter_pixel_color == filterButtonRGB or filter_pixel_color == filterButtonHoverRGB # Highlighted, not highlighted
         screener_open = greyDividerColor == dividerHorizontalPixelColor
@@ -286,6 +288,8 @@ def on_press(key):
             setting2Y = fullWindowIndicatorSettings2Y
             setting3Y = fullWindowIndicatorSettings3Y
 
+        print(setting2Y)
+        print(setting3Y)
 
         
         #
