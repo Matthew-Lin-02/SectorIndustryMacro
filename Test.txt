@@ -1,0 +1,7 @@
+AAPL:XLK:NQUSB40203010:Technology:Consumer Electronics
+ADI:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+ADM:XLP:NQUSB45102010:Consumer Defensive:Farm Products
+ADMA:XLV:NBI:IBB:Healthcare:Biotechnology
+MOS:XLB:NQG5520:Basic Materials:Agricultural Inputs
+MTDR:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+TSLA:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers

@@ -1,0 +1,1207 @@
+A:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+AA:XLB:ALUMINUM:NQUSB55102000:Basic Materials:Aluminum
+AAL:XLI:NQUSB40501010:Industrials:Airlines
+AAPL:XLK:NQUSB40203010:Technology:Consumer Electronics
+ABB:XLI:NQUSB502020:Industrials:Electrical Equipment & Parts
+ABBV:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+ABC:XLV:NQUSB20102015:Healthcare:Medical Distribution
+ABCL:XLV:NBI:IBB:Healthcare:Biotechnology
+ABEV:XLP:NQG4510:Consumer Defensive:Beverages->Brewers
+ABNB:XLY:NQUSB40501015LM:Consumer Cyclical:Travel Services
+ABR:XLRE:NQUSB302030T:Real Estate:REIT->Mortgage
+ABT:XLV:NQUSB20102010:Healthcare:Medical Devices
+ACAD:XLV:NBI:IBB:Healthcare:Biotechnology
+ACGL:XLF:INSR:KIX:Financial Services:Insurance->Diversified
+ACHR:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+ACI:XLP:NQG4520:Consumer Defensive:Grocery Stores
+ACN:XLK:S5INFT:Technology:Information Technology Services
+ACVA:XLY:NQUSB404010:Consumer Cyclical:Auto & Truck Dealerships
+ADBE:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+ADI:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+ADM:XLP:NQUSB45102010:Consumer Defensive:Farm Products
+ADMA:XLV:NBI:IBB:Healthcare:Biotechnology
+ADP:XLI:Industrials:Staffing & Employment Services
+ADPT:XLV:NBI:IBB:Healthcare:Biotechnology
+ADSK:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+ADT:XLI:NQUSB50205040N:Industrials:Security & Protection Services
+AEE:XLU:Utilities:Utilities->Regulated Electric
+AEG:XLF:INSR:KIX:Financial Services:Insurance->Diversified
+AEHR:XLK:NQUSB10102020N:NQUSB10102010N:SMH:Technology:Semiconductor Equipment & Materials
+AEM:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+AEO:XLY:NQUSB40401020:Consumer Cyclical:Apparel Retail
+AEP:XLU:Utilities:Utilities->Regulated Electric
+AES:XLU:Utilities:Utilities->Diversified
+AFL:XLF:NQUSM303010:INSR:KIX:Financial Services:Insurance->Life
+AFRM:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+AG:XLB:SILVER:Basic Materials:Silver
+AGEN:XLV:NBI:IBB:Healthcare:Biotechnology
+AGI:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+AGL:XLV:NQUSB201010LMN:Healthcare:Medical Care Facilities
+AGNC:XLRE:NQUSB302030T:Real Estate:REIT->Mortgage
+AI:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+AIG:XLF:INSR:KIX:Financial Services:Insurance->Diversified
+AIV:XLRE:Real Estate:REIT->Residential
+AKAM:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+ALB:XLB:NQG5520:Basic Materials:Specialty Chemicals
+ALC:XLV:NQUSB20102015:Healthcare:Medical Instruments & Supplies
+ALGM:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+ALIT:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+ALK:XLI:NQUSB40501010:Industrials:Airlines
+ALKS:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+ALL:XLF:KPX:INSR:KIX:Financial Services:Insurance->Property & Casualty
+ALLO:XLV:NBI:IBB:Healthcare:Biotechnology
+ALLY:XLF:NQUSB302010N:Financial Services:Credit Services
+AM:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+AMAT:XLK:NQUSB10102020N:NQUSB10102010N:SMH:Technology:Semiconductor Equipment & Materials
+AMBP:XLY:NQUSB50203030:Consumer Cyclical:Packaging & Containers
+AMC:XLC:NQUSB40301010:Communication Services:Entertainment
+AMCR:XLY:NQUSB50203030:Consumer Cyclical:Packaging & Containers
+AMD:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+AMGN:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+AMH:XLRE:NQUSB35102040:Real Estate:REIT->Residential
+AMKR:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+AMN:XLV:NQUSB201010LMN:Healthcare:Medical Care Facilities
+AMRN:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+AMRS:XLB:NQG5520:Basic Materials:Specialty Chemicals
+AMT:XLRE:Real Estate:REIT->Specialty
+AMX:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+AMZN:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+ANET:XLK:NQUSB10102030:Technology:Computer Hardware
+ANF:XLY:NQUSB40401020:Consumer Cyclical:Apparel Retail
+ANGI:XLC:NQUSB101010:Communication Services:Internet Content & Information
+APA:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+APD:XLB:NQG5520:Basic Materials:Specialty Chemicals
+APE:XLC:NQUSB40301010:Communication Services:Entertainment
+APEN:XLV:NQUSB20102010:Healthcare:Medical Devices
+APH:XLK:NQUSB502020:Technology:Electronic Components
+APLE:XLRE:NQUSB35102015:Real Estate:REIT->Hotel & Motel
+APLS:XLV:NBI:IBB:Healthcare:Biotechnology
+APO:XLF:NQUSL30202010T:Financial Services:Asset Management
+APP:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+APPS:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+APTV:XLY:NQUSB40101025:Consumer Cyclical:Auto Parts
+AQN:XLU:GRNREG:NQUSB601020:Utilities:Utilities->Renewable
+AQUA:XLI:GRNPOL:Industrials:Pollution & Treatment Controls
+AR:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+ARBE:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+ARCC:XLF:NQUSL30202010T:Financial Services:Asset Management
+ARDX:XLV:NBI:IBB:Healthcare:Biotechnology
+ARES:XLF:NQUSL30202010T:Financial Services:Asset Management
+ARGO:XLF:KPX:INSR:KIX:Financial Services:Insurance->Property & Casualty
+ARMK:XLI:Industrials:Specialty Business Services
+ARR:XLRE:NQUSB302030T:Real Estate:REIT->Mortgage
+ARRY:XLK:GRNSOLARX:NQUSB601020:Technology:Solar
+ARWR:XLV:NBI:IBB:Healthcare:Biotechnology
+ASAN:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+ASB:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+ASC:XLI:NQUSB50206030:Industrials:Marine Shipping
+ASO:XLY:NQUSB404010:Consumer Cyclical:Specialty Retail
+ASPN:XLI:NQUSB5010:Industrials:Building Products & Equipment
+ASTL:XLB:NQUSB55102010:Basic Materials:Steel
+ASTS:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+ASX:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+ATCO:XLF:NQUSL30202010T:Financial Services:Asset Management
+ATEC:XLV:NQUSB20102010:Medical Devices:Medical Devices
+ATI:XLI:NQUSB55102015:Industrials:Metal Fabrication
+ATUS:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+ATVI:XLC:NQUSB40301010:Communication Services:Electronic Gaming & Multimedia
+AU:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+AUPH:XLV:NBI:IBB:Healthcare:Biotechnology
+AUR:XLK:S5INFT:Technology:Information Technology Services
+AUY:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+AVDX:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+AVGO:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+AVTR:XLB:NQG5520:Basic Materials:Specialty Chemicals
+AWK:XLU:GRNWATER:Utilities:Utilities->Regulated Water
+AXP:XLF:NQUSB302010N:Financial Services:Credit Services
+AXTA:XLB:NQG5520:Basic Materials:Specialty Chemicals
+AYX:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+AZEK:XLI:NQUSB5010:Industrials:Building Products & Equipment
+AZN:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+AZTA:XLV:NQUSB20102015:Healthcare:Medical Instruments & Supplies
+AZUL:XLI:NQUSB40501010:Industrials:Airlines
+BA:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+BABA:XLY:NQUSB404010:FXI:Consumer Cyclical:Internet Retail
+BAC:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+BALL:XLY:NQUSB50203030:Consumer Cyclical:Packaging & Containers
+BAM:XLF:NQUSL30202010T:Financial Services:Asset Management
+BAX:XLV:NQUSB20102015:Healthcare:Medical Instruments & Supplies
+BB:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+BBAI:XLK:S5INFT:Technology:Information Technology Services
+BBD:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+BBIO:XLV:NBI:IBB:Healthcare:Biotechnology
+BBVA:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+BBWI:XLY:NQUSB404010:Consumer Cyclical:Specialty Retail
+BBY:XLY:NQUSB404010:Consumer Cyclical:Specialty Retail
+BCRX:XLV:NBI:IBB:Healthcare:Biotechnology
+BCS:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+BDN:XLRE:Real Estate:REIT->Office
+BDX:XLV:NQUSB20102015:Healthcare:Medical Instruments & Supplies
+BE:XLI:NQUSB502020:Industrials:Electrical Equipment & Parts
+BEKE:XLRE:FXI:Real Estate:Real Estate Services
+BEN:XLF:NQUSL30202010T:Financial Services:Asset Management
+BFLY:XLV:NQUSB20102010:Healthcare:Medical Devices
+BG:XLP:NQUSB45102010:Consumer Defensive:Farm Products
+BGCP:XLF:KSX:Financial Services:Capital Markets
+BGRY:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+BGS:XLP:NQG4510:Consumer Defensive:Packaged Foods
+BHC:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+BHP:XLB:NQUSB55102000:Basic Materials:Other Industrial Metals & Mining
+BIDU:XLC:NQUSB101010:FXI:Communication Services:Internet Content & Information
+BIGC:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+BILI:XLC:NQUSB40301010:FXI:Communication Services:Electronic Gaming & Multimedia
+BILL:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+BIRD:XLY:NQUSB40401020:Consumer Cyclical:Apparel Retail
+BJ:XLP:NQG4520:Consumer Defensive:Discount Stores
+BK:XLF:NQUSL30202010T:Financial Services:Asset Management
+BKD:XLV:NQUSB201010LMN:Healthcare:Medical Care Facilities
+BKI:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+BKKT:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+BKR:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Equipment & Services
+BLDP:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+BLDR:XLI:NQUSB5010:Industrials:Building Products & Equipment
+BLMN:XLY:NQUSB40501040:Consumer Cyclical:Restaurants
+BLND:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+BLNK:XLI:NQUSB5010:Industrials:Engineering & Construction
+BLUE:XLV:NBI:IBB:Healthcare:Biotechnology
+BMBL:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+BMY:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+BN:XLF:NQUSL30202010T:Financial Services:Asset Management
+BNGO:XLV:NQUSB20102015:Healthcare:Medical Instruments & Supplies
+BNS:XLF:NQUSB3010N:BKX:KBWB:Banks->Diversified:Banks->Diversified
+BNTX:XLV:NBI:IBB:Healthcare:Biotechnology
+BORR:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Drilling
+BOWL:XLC:NQUSB40301010:Communication Services:Entertainment
+BOX:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+BP:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Integrated
+BRBR:XLP:NQG4510:Consumer Defensive:Packaged Foods
+BRFS:XLP:NQG4510:Consumer Defensive:Packaged Foods
+BRK.B:XLF:INSR:KIX:Financial Services:Insurance->Diversified
+BRO:XLF:INSR:KIX:Financial Services:Insurance Brokers
+BRX:XLRE:Real Estate:REIT->Retail
+BSBR:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+BSX:XLV:NQUSB20102010:Healthcare:Medical Devices
+BTG:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+BTI:XLP:NQG4510:Consumer Defensive:Tobacco
+BTU:XLE:NQUSB60101040:Energy:Thermal Coal
+BUD:XLP:NQG4510:Consumer Defensive:Beverages->Brewers
+BWA:XLY:NQUSB40101025:Consumer Cyclical:Auto Parts
+BX:XLF:NQUSL30202010T:Financial Services:Asset Management
+BXMT:XLRE:NQUSB302030T:Real Estate:REIT->Mortgage
+BYND:XLP:NQG4510:Consumer Defensive:Packaged Foods
+BZ:XLI:FXI:Industrials:Staffing & Employment Services
+C:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+CADE:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+CAG:XLP:NQG4510:Consumer Defensive:Packaged Foods
+CAH:XLV:NQUSB20102015:Healthcare:Medical Distribution
+CAN:XLK:NQUSB10102030:FXI:Technology:Computer Hardware
+CANO:XLV:NQUSB201010LMN:Healthcare:Medical Care Facilities
+CARR:XLI:NQUSB5010:Industrials:Building Products & Equipment
+CAT:XLI:NQUSB50204020N:NQUSB5010:Industrials:Farm & Heavy Construction Machinery
+CB:XLF:KPX:INSR:KIX:Financial Services:Insurance->Property & Casualty
+CBAY:XLV:NBI:IBB:Healthcare:Biotechnology
+CBD:XLY:NQUSB404010:Consumer Cyclical:Department Stores
+CBRE:XLRE:Real Estate:Real Estate Services
+CC:XLB:NQG5520:Basic Materials:Specialty Chemicals
+CCEP:XLP:NQG4510:Consumer Defensive:Beverages->Non-Alcoholic
+CCI:XLRE:Real Estate:REIT->Specialty
+CCJ:XLE:URA:NQUSB55102000:Energy:Uranium
+CCL:XLY:NQUSB40501015LM:Consumer Cyclical:Travel Services
+CCO:XLC:NQUSB101010:Communication Services:Advertising Agencies
+CDAY:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+CDE:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+CDNS:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+CDW:XLK:S5INFT:Technology:Information Technology Services
+CEG:XLU:GRNREG:NQUSB601020:Utilities:Utilities->Renewable
+CEIX:XLE:NQUSB60101040:Energy:Thermal Coal
+CENX:XLB:ALUMINUM:NQUSB55102000:Basic Materials:Aluminum
+CERS:XLV:NQUSB20102010:Healthcare:Medical Devices
+CF:XLB:NQG5520:Basic Materials:Agricultural Inputs
+CFG:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+CFLT:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+CG:XLF:NQUSL30202010T:Financial Services:Asset Management
+CGC:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+CHD:XLP:NQG4520:Consumer Defensive:Household & Personal Products
+CHGG:XLP:NQUSB40201010N:Consumer Defensive:Education & Training Services
+CHK:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+CHPT:XLY:NQUSB404010:Consumer Cyclical:Specialty Retail
+CHS:XLY:NQUSB40401020:Consumer Cyclical:Apparel Retail
+CHWY:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+CHX:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Equipment & Services
+CI:XLV:NQUSB201010LMN:Healthcare:Healthcare Plans
+CIEN:XLK:NQUSB15:IXTC:Technology:Communication Equipment
+CIFR:XLF:KSX:Financial Services:Capital Markets
+CIG:XLU:Utilities:Utilities->Diversified
+CIM:XLRE:NQUSB302030T:Real Estate:REIT->Mortgage
+CL:XLP:NQG4520:Consumer Defensive:Household & Personal Products
+CLF:XLB:NQUSB55102010:Basic Materials:Steel
+CLM:XLF:NQUSL30202010T:Financial Services:Asset Management
+CLNE:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Refining & Marketing
+CLOV:XLV:NQUSB201010LMN:Healthcare:Healthcare Plans
+CLS:XLK:NQUSB502020:Electronic Components:Electronic Components
+CLVT:XLK:S5INFT:Technology:Information Technology Services
+CMA:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+CMCSA:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+CME:XLF:NQUSB30201030:Financial Services:Financial Data & Stock Exchanges
+CMS:XLU:Utilities:Utilities->Regulated Electric
+CNC:XLV:NQUSB201010LMN:Healthcare:Healthcare Plans
+CNCE:XLV:NBI:IBB:Healthcare:Biotechnology
+CNHI:XLI:NQUSB50204020N:NQUSB5010:Industrials:Farm & Heavy Construction Machinery
+CNK:XLC:NQUSB40301010:Communication Services:Entertainment
+CNP:XLU:Utilities:Utilities->Regulated Electric
+CNQ:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+CNX:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+COF:XLF:NQUSB302010N:Financial Services:Credit Services
+COHR:XLK:NQUSM101020N:Technology:Scientific & Technical Instruments
+COIN:XLF:BTCUSD:NQUSM101010:NQUSL10101015N:Financial Services:Financial Data & Stock Exchanges
+COLD:XLRE:NQUSB35102020:Real Estate:REIT->Industrial
+COMM:XLK:NQUSB15:IXTC:Technology:Communication Equipment
+COMP:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+COP:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+COST:XLP:NQG4520:Consumer Defensive:Discount Stores
+COTY:XLP:NQG4520:Consumer Defensive:Household & Personal Products
+COUP:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+COUR:XLP:NQUSB40201010N:Consumer Defensive:Education & Training Services
+CP:XLI:NQUSB50206020:Industrials:Railroads
+CPB:XLP:NQG4510:Consumer Defensive:Packaged Foods
+CPE:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+CPG:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+CPNG:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+CPRI:XLY:NQUSB40204020:Consumer Cyclical:Luxury Goods
+CPRT:XLY:NQUSB404010:Consumer Cyclical:Auto & Truck Dealerships
+CPRX:XLV:NBI:IBB:Healthcare:Biotechnology
+CRBG:XLF:NQUSL30202010T:Financial Services:Asset Management
+CRDO:XLK:NQUSB15:IXTC:Technology:Communication Equipment
+CRK:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+CRM:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+CRON:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+CROX:XLY:NQUSB40204020:Consumer Cyclical:Footwear & Accessories
+CRSP:XLV:NBI:IBB:Healthcare:Biotechnology
+CRWD:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+CS:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+CSCO:XLK:NQUSB15:IXTC:Technology:Communication Equipment
+CSGP:XLRE:Real Estate:Real Estate Services
+CSII:XLV:NQUSB20102010:Healthcare:Medical Devices
+CSX:XLI:NQUSB50206020:Industrials:Railroads
+CTIC:XLV:NBI:IBB:Healthcare:Biotechnology
+CTKB:XLV:NQUSB20102010:Healthcare:Medical Devices
+CTLT:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+CTRA:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+CTSH:XLK:S5INFT:Technology:Information Technology Services
+CTVA:XLB:NQG5520:Basic Materials:Agricultural Inputs
+CUBE:XLRE:NQUSB35102020:Real Estate:REIT->Industrial
+CUK:XLY:NQUSB402030:Consumer Cyclical:Leisure
+CUZ:XLRE:Real Estate:REIT->Office
+CVAC:XLV:NBI:IBB:Healthcare:Biotechnology
+CVE:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Integrated
+CVNA:XLY:NQUSB404010:Consumer Cyclical:Auto & Truck Dealerships
+CVS:XLV:NQUSB201010LMN:Healthcare:Healthcare Plans
+CVX:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Integrated
+CWH:XLY:NQUSB404010:Consumer Cyclical:Auto & Truck Dealerships
+CWK:XLRE:Real Estate:Real Estate Services
+CX:XLB:NQUSB50101035N:Basic Materials:Building Materials
+CXW:XLI:NQUSB50205040N:Industrials:Security & Protection Services
+CYH:XLV:NQUSB201010LMN:Healthcare:Medical Care Facilities
+CZR:XLY:NQUSB40501020:Consumer Cyclical:Resorts & Casinos
+D:XLU:Utilities:Utilities->Regulated Electric
+DADA:XLY:NQUSB404010:FXI:Consumer Cyclical:Internet Retail
+DAL:XLI:NQUSB40501010:Industrials:Airlines
+DAN:XLY:NQUSB40101025:Consumer Cyclical:Auto Parts
+DAR:XLP:NQG4510:Consumer Defensive:Packaged Foods
+DASH:XLC:NQUSB101010:Communication Services:Internet Content & Information
+DB:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+DBI:XLY:NQUSB40401020:Consumer Cyclical:Apparel Retail
+DBX:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+DCT:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+DD:XLB:NQG5520:Basic Materials:Specialty Chemicals
+DDL:XLP:NQG4520:FXI:Consumer Defensive:Grocery Stores
+DDOG:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+DE:XLI:NQUSB50204020N:NQUSB5010:Industrials:Farm & Heavy Construction Machinery
+DEI:XLRE:Real Estate:REIT->Office
+DELL:XLK:NQUSB10102030:Technology:Computer Hardware
+DFS:XLF:NQUSB302010N:Financial Services:Credit Services
+DG:XLP:NQG4520:Consumer Defensive:Discount Stores
+DHI:XLY:NQUSB40202010T:ITB:Consumer Cyclical:Residential Construction
+DHR:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+DHT:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+DINO:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Refining & Marketing
+DIS:XLC:NQUSB40301010:Communication Services:Entertainment
+DISH:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+DK:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Refining & Marketing
+DKNG:XLY:NQUSB40501020:Consumer Cyclical:Gambling
+DLR:XLRE:Real Estate:REIT->Specialty
+DLTR:XLP:NQG4520:Consumer Defensive:Discount Stores
+DM:XLK:NQUSB10102030:Technology:Computer Hardware
+DNA:XLV:NBI:IBB:Healthcare:Biotechnology
+DNB:XLF:NQUSB30201030:Financial Services:Financial Data & Stock Exchanges
+DNN:XLE:URA:NQUSB55102000:Energy:Uranium
+DO:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Drilling
+DOC:XLRE:NQUSB35102010N:Real Estate:REIT->Healthcare Facilities
+DOCN:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+DOCS:XLV:S5INFT:Healthcare:Health Information Services
+DOCU:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+DOW:XLB:NQG5520:Basic Materials:Chemicals
+DQ:XLK:NQUSB10102020N:FXI:Technology:Semiconductor Equipment & Materials
+DRH:XLRE:NQUSB35102015:Real Estate:REIT->Hotel & Motel
+DRI:XLY:NQUSB40501040:Consumer Cyclical:Restaurants
+DT:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+DUK:XLU:Utilities:Utilities->Regulated Electric
+DVAX:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+DVN:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+DXC:XLK:S5INFT:Technology:Information Technology Services
+DXCM:XLV:NQUSB20102010:Healthcare:Medical Devices
+EA:XLC:NQUSB40301010:Communication Services:Electronic Gaming & Multimedia
+EAF:XLI:NQUSB502020:Industrials:Electrical Equipment & Parts
+EBAY:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+EBR:XLU:Utilities:Utilities->Regulated Electric
+EBS:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+EC:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Integrated
+ECL:XLB:NQG5520:Basic Materials:Specialty Chemicals
+ED:XLU:Utilities:Utilities->Regulated Electric
+EDIT:XLV:NBI:IBB:Healthcare:Biotechnology
+EDU:XLP:NQUSB40201010N:FXI:Consumer Defensive:Education & Training Services
+EGHT:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+EGO:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+EGY:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+EH:XLI:NQUSB50201010:NQUSB50201020N:FXI:Industrials:Aerospace & Defense
+EIX:XLU:Utilities:Utilities->Regulated Electric
+EL:XLP:NQG4520:Consumer Defensive:Household & Personal Products
+ELAN:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+EMR:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+ENB:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+ENLC:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+ENPH:XLK:GRNSOLARX:NQUSB601020:Technology:Solar
+ENTG:XLK:NQUSB10102020N:NQUSB10102010N:SMH:Technology:Semiconductor Equipment & Materials
+ENVX:XLI:NQUSB502020:Industrials:Electrical Equipment & Parts
+EOG:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+EPD:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+EQC:XLRE:Real Estate:REIT->Office
+EQH:XLF:INSR:KIX:Financial Services:Insurance->Diversified
+EQNR:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Integrated
+EQR:XLRE:NQUSB35102040:Real Estate:REIT->Residential
+EQRX:XLV:NBI:IBB:Healthcare:Biotechnology
+EQT:XLE:XOP:NG1!:Energy:Oil & Gas E&P
+EQX:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+ERIC:XLK:NQUSB15:IXTC:Technology:Communication Equipment
+ERJ:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+ES:XLU:Utilities:Utilities->Regulated Electric
+ESI:XLB:NQG5520:Basic Materials:Specialty Chemicals
+ESPR:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+ESTE:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+ET:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+ETN:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+ETR:XLU:Utilities:Utilities->Regulated Electric
+ETRN:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+ETSY:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+ETWO:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+EURN:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+EVGO:XLY:NQUSB404010:Consumer Cyclical:Specialty Retail
+EVRG:XLU:Utilities:Utilities->Regulated Electric
+EW:XLV:NQUSB20102010:Healthcare:Medical Devices
+EXAS:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+EXC:XLU:Utilities:Utilities->Regulated Electric
+EXEL:XLV:NBI:IBB:Healthcare:Biotechnology
+EXK:XLB:NQUSB55102000:Basic Materials:Other Precious Metals & Mining
+EXPD:XLI:TRAN:NQUSB50206010:NQUSB50206020:NQUSB50206030:Industrials:Integrated Freight & Logistics
+EXPE:XLY:NQUSB40501015LM:Consumer Cyclical:Travel Services
+F:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+FANG:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+FAST:XLI:Industrials:Industrial Distribution
+FATE:XLV:NBI:IBB:Healthcare:Biotechnology
+FCEL:XLI:NQUSB502020:Industrials:Electrical Equipment & Parts
+FCX:XLB:COPX:COPPER:NQUSB55102000:Basic Materials:Copper
+FDX:XLI:TRAN:NQUSB50206010:NQUSB50206020:NQUSB50206030:Industrials:Integrated Freight & Logistics
+FE:XLU:Utilities:Utilities->Regulated Electric
+FERG:XLI:Industrials:Industrial Distribution
+FFIE:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+FHN:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+FIGS:XLY:NQUSB40204020:Consumer Cyclical:Apparel Manufacturing
+FIS:XLK:S5INFT:Technology:Information Technology Services
+FISV:XLK:S5INFT:Technology:Information Technology Services
+FITB:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+FIVN:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+FL:XLY:NQUSB40401020:Consumer Cyclical:Apparel Retail
+FLEX:XLK:NQUSB502020:Technology:Electronic Components
+FLNC:XLU:GRNREG:NQUSB601020:Utilities:Utilities->Renewable
+FLO:XLP:NQG4510:Consumer Defensive:Packaged Foods
+FLR:XLI:NQUSB5010:Industrials:Engineering & Construction
+FMS:XLV:NQUSB201010LMN:Healthcare:Medical Care Facilities
+FMX:XLP:NQG4510:Consumer Defensive:Beverages->Brewers
+FNB:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+FND:XLY:NQUSB404010:Consumer Cyclical:Home Improvement Retail
+FOLD:XLV:NBI:IBB:Healthcare:Biotechnology
+FOUR:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+FOX:XLC:NQUSB40301010:Communication Services:Entertainment
+FOXA:XLC:NQUSB40301010:Communication Services:Entertainment
+FRC:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+FREY:XLI:NQUSB502020:Industrials:Electrical Equipment & Parts
+FRO:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+FRSH:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+FSLR:XLK:GRNSOLARX:NQUSB601020:Technology:Solar
+FSLY:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+FSM:XLB:SILVER:Basic Materials:Silver
+FSR:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+FTCH:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+FTI:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Equipment & Services
+FTNT:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+FTV:XLK:NQUSM101020N:Technology:Scientific & Technical Instruments
+FUBO:XLC:NQUSM40301035T:Communication Services:Broadcasting
+FULT:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+FUTU:XLF:KSX:Financial Services:Capital Markets
+FYBR:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+GCI:XLC:NQUSM40301030:Communication Services:Publishing
+GD:XLI:NQUSB50201010:NQUSB50201020N:Aerospace & Defense:Aerospace & Defense
+GDRX:XLV:S5INFT:Healthcare:Health Information Services
+GDS:XLK:S5INFT:Technology:Information Technology Services
+GE:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+GEHC:XLV:NQUSB20102015:Healthcare:Health Information Services
+GEN:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+GEO:XLI:NQUSB50205040N:Industrials:Security & Protection Services
+GERN:XLV:NBI:IBB:Healthcare:Biotechnology
+GEVO:XLB:NQG5520:Basic Materials:Specialty Chemicals
+GFI:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+GFL:XLI:GRNPOL:Industrials:Waste Management
+GFS:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+GGB:XLB:NQUSB55102010:Basic Materials:Steel
+GH:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+GILD:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+GIS:XLP:NQG4510:Consumer Defensive:Packaged Foods
+GLBE:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+GLPI:XLRE:Real Estate:REIT->Specialty
+GLW:XLK:NQUSB502020:Technology:Electronic Components
+GM:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+GME:XLY:NQUSB404010:Consumer Cyclical:Specialty Retail
+GMED:XLV:NQUSB20102010:Healthcare:Medical Devices
+GNRC:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+GNTX:XLY:NQUSB40101025:Consumer Cyclical:Auto Parts
+GNW:XLF:NQUSM303010:INSR:KIX:Financial Services:Insurance->Life
+GOEV:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+GOGL:XLI:NQUSB50206030:Industrials:Marine Shipping
+GOL:XLI:NQUSB40501010:Industrials:Airlines
+GOLD:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+GOOG:XLC:NQUSB101010:Communication Services:Internet Content & Information
+GOOGL:XLC:NQUSB101010:Communication Services:Internet Content & Information
+GOOS:XLY:NQUSB40204020:Consumer Cyclical:Apparel Manufacturing
+GOTU:XLP:NQUSB40201010N:FXI:Consumer Defensive:Education & Training Services
+GPK:XLY:NQUSB50203030:Consumer Cyclical:Packaging & Containers
+GPN:XLI:Industrials:Specialty Business Services
+GPRO:XLK:NQUSB40203010:Technology:Consumer Electronics
+GPS:XLY:NQUSB40401020:Consumer Cyclical:Apparel Retail
+GRAB:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+GS:XLF:KSX:Financial Services:Capital Markets
+GSAT:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+GSK:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+GT:XLY:NQUSB40101025:Consumer Cyclical:Auto Parts
+GTE:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+GTES:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+GTLB:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+GTLS:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+GWH:XLI:NQUSB502020:Industrials:Electrical Equipment & Parts
+H:XLY:NQUSB40501025:Consumer Cyclical:Lodging
+HA:XLI:NQUSB40501010:Industrials:Airlines
+HAL:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Equipment & Services
+HALO:XLV:NBI:IBB:Healthcare:Biotechnology
+HAS:XLY:NQUSB402030:Consumer Cyclical:Leisure
+HAYW:XLI:NQUSB502020:Industrials:Electrical Equipment & Parts
+HBAN:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+HBI:XLY:NQUSB40204020:Consumer Cyclical:Apparel Manufacturing
+HBM:XLB:COPX:COPPER:NQUSB55102000:Basic Materials:Copper
+HCP:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+HCSG:XLV:NQUSB201010LMN:Healthcare:Medical Care Facilities
+HD:XLY:NQUSB404010:Consumer Cyclical:Home Improvement Retail
+HDB:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+HES:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+HIG:XLF:INSR:KIX:Financial Services:Insurance->Diversified
+HIMS:XLP:NQG4520:Consumer Defensive:Household & Personal Products
+HIMX:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+HL:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+HLF:XLP:NQG4510:Consumer Defensive:Packaged Foods
+HLIT:XLK:NQUSB15:IXTC:Technology:Communication Equipment
+HLN:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+HLT:XLY:NQUSB40501025:Consumer Cyclical:Lodging
+HLX:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Equipment & Services
+HMC:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+HMY:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+HOG:XLY:NQUSB402030:Consumer Cyclical:Recreational Vehicles
+HOLX:XLV:NQUSB20102015:Healthcare:Medical Instruments & Supplies
+HON:XLI:Industrials:Conglomerates
+HOOD:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+HP:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Drilling
+HPE:XLK:NQUSB15:IXTC:Technology:Communication Equipment
+HPP:XLRE:Real Estate:REIT->Office
+HPQ:XLK:NQUSB10102030:Technology:Computer Hardware
+HR:XLRE:NQUSB35102010N:Real Estate:REIT->Healthcare Facilities
+HRB:XLY:NQUSM402010:Consumer Cyclical:Personal Services
+HRL:XLP:NQG4510:Consumer Defensive:Packaged Foods
+HRTX:XLV:NBI:IBB:Healthcare:Biotechnology
+HSBC:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+HSIC:XLV:NQUSB20102015:Healthcare:Medical Distribution
+HST:XLRE:NQUSB35102015:Real Estate:REIT->Hotel & Motel
+HSY:XLP:NQUSB451020:Consumer Defensive:Confectioners
+HTGC:XLF:NQUSL30202010T:Financial Services:Asset Management
+HTHT:XLY:NQUSB40501025:FXI:Consumer Cyclical:Lodging
+HTZ:XLI:NQUSM402010:Industrials:Rental & Leasing Services
+HUN:XLB:NQG5520:Basic Materials:Chemicals
+HUT:XLF:BTCUSD:KSX:Financial Services:Capital Markets
+HWM:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+HYZN:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+HZNP:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+IAA:XLI:Industrials:Specialty Business Services
+IAC:XLC:NQUSB101010:Communication Services:Internet Content & Information
+IAG:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+IBKR:XLF:KSX:Financial Services:Capital Markets
+IBM:XLK:S5INFT:Technology:Information Technology Services
+IBN:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+IBRX:XLV:NBI:IBB:Healthcare:Biotechnology
+ICE:XLF:NQUSB30201030:Financial Services:Financial Data & Stock Exchanges
+ICL:XLB:NQG5520:Basic Materials:Agricultural Inputs
+IEP:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Refining & Marketing
+IFF:XLB:NQG5520:Basic Materials:Specialty Chemicals
+IGT:XLY:NQUSB40501020:Consumer Cyclical:Gambling
+ILMN:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+IMGN:XLV:NBI:IBB:Healthcare:Biotechnology
+INCY:XLV:NBI:IBB:Healthcare:Biotechnology
+INDI:XLK:NQUSB10102020N:NQUSB10102010N:SMH:Technology:Semiconductor Equipment & Materials
+INFN:XLK:NQUSB15:IXTC:Technology:Communication Equipment
+INFY:XLK:S5INFT:Technology:Information Technology Services
+ING:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+INMD:XLV:NQUSB20102010:Healthcare:Medical Devices
+INO:XLV:NBI:IBB:Healthcare:Biotechnology
+INSM:XLV:NBI:IBB:Healthcare:Biotechnology
+INTC:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+INTU:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+INVH:XLRE:NQUSB35102040:Real Estate:REIT->Residential
+IONQ:XLK:NQUSB10102030:Technology:Computer Hardware
+IOT:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+IOVA:XLV:NBI:IBB:Healthcare:Biotechnology
+IP:XLY:NQUSB50203030:Consumer Cyclical:Packaging & Containers
+IPG:XLC:NQUSB101010:Communication Services:Advertising Agencies
+IQ:XLC:NQUSB40301010:FXI:Communication Services:Entertainment
+IQV:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+IR:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+IRM:XLRE:Real Estate:REIT->Specialty
+IRT:XLRE:NQUSB35102040:Real Estate:REIT->Residential
+IRWD:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+ISEE:XLV:NBI:IBB:Healthcare:Biotechnology
+ISRG:XLV:NQUSB20102015:Healthcare:Medical Instruments & Supplies
+ITUB:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+ITW:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+IVZ:XLF:NQUSL30202010T:Financial Services:Asset Management
+JBL:XLK:NQUSB502020:Technology:Electronic Components
+JBLU:XLI:NQUSB40501010:Industrials:Airlines
+JCI:XLI:NQUSB5010:Industrials:Building Products & Equipment
+JD:XLY:NQUSB404010:FXI:Consumer Cyclical:Internet Retail
+JMIA:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+JNJ:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+JNPR:XLK:NQUSB15:IXTC:Technology:Communication Equipment
+JOBY:XLI:NQUSB40501010:Industrials:Airports & Air Services
+JPM:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+JWN:XLY:NQUSB404010:Consumer Cyclical:Department Stores
+K:XLP:NQG4510:Consumer Defensive:Packaged Foods
+KBH:XLY:NQUSB40202010T:ITB:Consumer Cyclical:Residential Construction
+KBR:XLI:NQUSB5010:Industrials:Engineering & Construction
+KC:XLK:NQUSM101010:NQUSL10101015N:FXI:Technology:Software->Application
+KD:XLK:S5INFT:Technology:Information Technology Services
+KDP:XLP:NQG4510:Consumer Defensive:Beverages->Non-Alcoholic
+KEY:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+KGC:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+KHC:XLP:NQG4510:Consumer Defensive:Packaged Foods
+KIM:XLRE:Real Estate:REIT->Retail
+KKR:XLF:NQUSL30202010T:Financial Services:Asset Management
+KLAC:XLK:NQUSB10102020N:NQUSB10102010N:SMH:Technology:Semiconductor Equipment & Materials
+KMB:XLP:NQG4520:Consumer Defensive:Household & Personal Products
+KMI:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+KMX:XLY:NQUSB404010:Consumer Cyclical:Auto & Truck Dealerships
+KN:XLK:NQUSB15:IXTC:Technology:Communication Equipment
+KNX:XLI:NQUSB50206010:Industrials:Trucking
+KO:XLP:NQG4510:Consumer Defensive:Beverages->Non-Alcoholic
+KOS:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+KPTI:XLV:NBI:IBB:Healthcare:Biotechnology
+KR:XLP:NQG4520:Consumer Defensive:Grocery Stores
+KRG:XLRE:Real Estate:REIT->Retail
+KSS:XLY:NQUSB404010:Consumer Cyclical:Department Stores
+KT:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+LAC:XLB:NQUSB55102000:Basic Materials:Other Industrial Metals & Mining
+LAZR:XLY:NQUSB40101025:Consumer Cyclical:Auto Parts
+LBRT:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Equipment & Services
+LBTYA:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+LBTYK:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+LC:XLF:NQUSB302010N:Financial Services:Credit Services
+LCID:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+LDOS:XLK:S5INFT:Technology:Information Technology Services
+LEN:XLY:NQUSB40202010T:ITB:Consumer Cyclical:Residential Construction
+LESL:XLY:NQUSB404010:Consumer Cyclical:Specialty Retail
+LEVI:XLY:NQUSB40204020:Consumer Cyclical:Apparel Manufacturing
+LGF.A:XLC:NQUSB40301010:Communication Services:Entertainment
+LGF.B:XLC:NQUSB40301010:Communication Services:Entertainment
+LHX:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+LI:XLY:NQG4010:FXI:Consumer Cyclical:Auto Manufacturers
+LICY:XLI:GRNPOL:Industrials:Waste Management
+LILM:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+LIN:XLB:NQG5520:Basic Materials:Specialty Chemicals
+LKQ:XLY:NQUSB40101025:Consumer Cyclical:Auto Parts
+LLAP:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+LLY:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+LMND:XLF:KPX:INSR:KIX:Financial Services:Insurance->Property & Casualty
+LMT:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+LNC:XLF:NQUSM303010:INSR:KIX:Financial Services:Insurance->Life
+LNG:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+LNT:XLU:Utilities:Utilities->Regulated Electric
+LOW:XLY:NQUSB404010:Consumer Cyclical:Home Improvement Retail
+LRCX:XLK:NQUSB10102020N:NQUSB10102010N:SMH:Technology:Semiconductor Equipment & Materials
+LSCC:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+LSI:XLRE:NQUSB35102020:Real Estate:REIT->Industrial
+LTHM:XLB:NQG5520:Basic Materials:Specialty Chemicals
+LU:XLF:NQUSB302010N:FXI:Financial Services:Credit Services
+LULU:XLY:NQUSB40401020:Consumer Cyclical:Apparel Retail
+LUMN:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+LUV:XLI:NQUSB40501010:Industrials:Airlines
+LVS:XLY:NQUSB40501020:Consumer Cyclical:Resorts & Casinos
+LW:XLP:NQG4510:Consumer Defensive:Packaged Foods
+LXP:XLRE:NQUSB35102020:Real Estate:REIT->Industrial
+LYB:XLB:NQG5520:Basic Materials:Specialty Chemicals
+LYFT:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+LYG:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+LYV:XLC:NQUSB40301010:Communication Services:Entertainment
+M:XLY:NQUSB404010:Consumer Cyclical:Department Stores
+MA:XLF:NQUSB302010N:Financial Services:Credit Services
+MAC:XLRE:Real Estate:REIT->Retail
+MANU:XLC:NQUSB40301010:Communication Services:Entertainment
+MAR:XLY:NQUSB40501025:Consumer Cyclical:Lodging
+MARA:XLF:BTCUSD:KSX:Financial Services:Capital Markets
+MAS:XLI:NQUSB5010:Industrials:Building Products & Equipment
+MAT:XLY:NQUSB402030:Consumer Cyclical:Leisure
+MAXR:XLK:NQUSB15:IXTC:Technology:Communication Equipment
+MBLY:XLY:NQUSB40101025:Consumer Cyclical:Auto Parts
+MCD:XLY:NQUSB40501040:Consumer Cyclical:Restaurants
+MCHP:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+MCW:XLY:NQUSM402010:Consumer Cyclical:Personal Services
+MDB:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+MDLZ:XLP:NQUSB451020:Consumer Defensive:Confectioners
+MDT:XLV:NQUSB20102010:Healthcare:Medical Devices
+ME:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+MET:XLF:NQUSM303010:INSR:KIX:Financial Services:Insurance->Life
+META:XLC:NQUSB101010:Communication Services:Internet Content & Information
+MFA:XLRE:NQUSB302030T:Real Estate:REIT->Mortgage
+MFC:XLF:NQUSM303010:INSR:KIX:Financial Services:Insurance->Life
+MGA:XLY:NQUSB40101025:Consumer Cyclical:Auto Parts
+MGI:XLF:NQUSB302010N:Financial Services:Credit Services
+MGM:XLY:NQUSB40501020:Consumer Cyclical:Resorts & Casinos
+MGNI:XLC:NQUSB101010:Communication Services:Advertising Agencies
+MGNX:XLV:NBI:IBB:Healthcare:Biotechnology
+MGY:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+MIR:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+MKC:XLP:NQG4510:Consumer Defensive:Packaged Foods
+MLCO:XLY:NQUSB40501020:Consumer Cyclical:Resorts & Casinos
+MMC:XLF:INSR:KIX:Financial Services:Insurance Brokers
+MMM:XLI:Industrials:Conglomerates
+MNDY:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+MNKD:XLV:NBI:IBB:Healthcare:Biotechnology
+MNSO:XLY:NQUSB404010:FXI:Consumer Cyclical:Specialty Retail
+MNST:XLP:NQG4510:Consumer Defensive:Beverages->Non-Alcoholic
+MNTV:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+MO:XLP:NQG4510:Consumer Defensive:Tobacco
+MODG:XLY:NQUSB402030:Consumer Cyclical:Leisure
+MOMO:XLC:NQUSB101010:FXI:Communication Services:Internet Content & Information
+MOS:XLB:NQG5520:Basic Materials:Agricultural Inputs
+MP:XLB:NQUSB55102000:Basic Materials:Other Industrial Metals & Mining
+MPC:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Refining & Marketing
+MPLX:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+MPW:XLRE:NQUSB35102010N:Real Estate:REIT->Healthcare Facilities
+MQ:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+MRK:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+MRNA:XLV:NBI:IBB:Healthcare:Biotechnology
+MRO:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+MRSN:XLV:NBI:IBB:Healthcare:Biotechnology
+MRVL:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+MS:XLF:KSX:Financial Services:Capital Markets
+MSFT:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+MT:XLB:NQUSB55102010:Basic Materials:Steel
+MTB:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+MTCH:XLC:NQUSB101010:Communication Services:Internet Content & Information
+MTDR:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+MTG:XLF:INSR:KIX:Financial Services:Insurance->Specialty
+MTTR:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+MU:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+MUFG:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+MULN:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+MUR:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+MVIS:XLK:NQUSM101020N:Technology:Scientific & Technical Instruments
+MVST:XLI:NQUSB502020:Industrials:Electrical Equipment & Parts
+NAT:XLI:NQUSB50206030:Industrials:Marine Shipping
+NATI:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+NCLH:XLY:NQUSB40501015LM:Consumer Cyclical:Travel Services
+NDAQ:XLF:NQUSB30201030:Financial Services:Financial Data & Stock Exchanges
+NE:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Drilling
+NEE:XLU:Utilities:Utilities->Regulated Electric
+NEM:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+NEO:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+NEOG:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+NET:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+NEWR:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+NEX:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Equipment & Services
+NFLX:XLC:NQUSB40301010:Communication Services:Entertainment
+NGD:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+NGL:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+NI:XLU:Utilities:Utilities->Regulated Gas
+NINE:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Equipment & Services
+NIO:XLY:NQG4010:FXI:Consumer Cyclical:Auto Manufacturers
+NKE:XLY:NQUSB40204020:Consumer Cyclical:Footwear & Accessories
+NKLA:XLI:NQUSB50204020N:NQUSB5010:Industrials:Farm & Heavy Construction Machinery
+NKTR:XLV:NBI:IBB:Healthcare:Biotechnology
+NLY:XLRE:NQUSB302030T:Real Estate:REIT->Mortgage
+NMR:XLF:KSX:Financial Services:Capital Markets
+NNDM:XLK:NQUSB10102030:Technology:Computer Hardware
+NOG:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+NOK:XLK:NQUSB15:IXTC:Technology:Communication Equipment
+NOV:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Equipment & Services
+NOVA:XLK:GRNSOLARX:NQUSB601020:Technology:Solar
+NOW:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+NRDS:XLF:NQUSB302010N:Financial Services:Credit Services
+NRG:XLU:Utilities:Utilities->Independent Power Producers
+NSC:XLI:NQUSB50206020:Industrials:Railroads
+NTAP:XLK:NQUSB10102030:Technology:Computer Hardware
+NTES:XLC:NQUSB40301010:FXI:Communication Services:Electronic Gaming & Multimedia
+NTNX:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+NTR:XLB:NQG5520:Basic Materials:Agricultural Inputs
+NTRA:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+NTRS:XLF:NQUSL30202010T:Asset Management:Asset Management
+NU:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+NUE:XLB:NQUSB55102010:Basic Materials:Steel
+NUVA:XLV:NQUSB20102010:Healthcare:Medical Devices
+NVAX:XLV:NBI:IBB:Healthcare:Biotechnology
+NVCR:XLV:NQUSB20102010:Medical Devices:Medical Devices
+NVDA:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+NVO:XLV:NBI:IBB:Healthcare:Biotechnology
+NVS:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+NVST:XLV:NQUSB20102015:Healthcare:Medical Instruments & Supplies
+NVT:XLI:NQUSB502020:Industrials:Electrical Equipment & Parts
+NVTA:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+NWG:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+NWL:XLP:NQG4520:Consumer Defensive:Household & Personal Products
+NWSA:XLC:NQUSB40301010:Communication Services:Entertainment
+NXE:XLE:URA:NQUSB55102000:Energy:Uranium
+NXPI:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+NYCB:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+NYMT:XLRE:NQUSB302030T:Real Estate:REIT->Mortgage
+NYT:XLC:NQUSM40301030:Communication Services:Publishing
+O:XLRE:Real Estate:REIT->Retail
+OCUL:XLV:NBI:IBB:Healthcare:Biotechnology
+OGN:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+OHI:XLRE:NQUSB35102010N:Real Estate:REIT->Healthcare Facilities
+OKE:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+OKTA:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+OLN:XLB:NQG5520:Basic Materials:Specialty Chemicals
+OLPX:XLY:NQUSB404010:Consumer Cyclical:Specialty Retail
+OMC:XLC:NQUSB101010:Communication Services:Advertising Agencies
+OMF:XLF:NQUSB302010N:Financial Services:Credit Services
+ON:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+ONB:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+ONEM:XLV:NQUSB201010LMN:Healthcare:Medical Care Facilities
+ONON:XLY:NQUSB40204020:Consumer Cyclical:Footwear & Accessories
+OPCH:XLV:NQUSB201010LMN:Medical Care Facilities:Medical Care Facilities
+OPEN:XLRE:Real Estate:Real Estate Services
+OPK:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+ORCC:XLF:NQUSB302010N:Financial Services:Credit Services
+ORCL:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+ORGN:XLB:NQG5520:Basic Materials:Chemicals
+ORI:XLF:INSR:KIX:Financial Services:Insurance->Diversified
+OSCR:XLV:NQUSB201010LMN:Healthcare:Healthcare Plans
+OSH:XLV:NQUSB201010LMN:Healthcare:Medical Care Facilities
+OSTK:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+OTIS:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+OTLY:XLP:NQG4510:Consumer Defensive:Beverages->Non-Alcoholic
+OUST:XLK:NQUSB502020:Technology:Electronic Components
+OUT:XLRE:Real Estate:REIT->Specialty
+OVV:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+OWL:XLF:NQUSL30202010T:Financial Services:Asset Management
+OXY:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+OZK:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+PAA:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+PAAS:XLB:SILVER:Basic Materials:Silver
+PACB:XLV:NQUSB20102010:Healthcare:Medical Devices
+PACW:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+PAGP:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+PAGS:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+PANW:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+PARA:XLC:NQUSB40301010:Communication Services:Entertainment
+PATH:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+PAYA:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+PAYO:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+PAYX:XLI:NQUSB50205025:Industrials:Staffing & Employment Services
+PBF:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Refining & Marketing
+PBI:XLI:TRAN:NQUSB50206010:NQUSB50206020:NQUSB50206030:Industrials:Integrated Freight & Logistics
+PBR.A:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Integrated
+PBR:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Integrated
+PCAR:XLI:NQUSB50204020N:NQUSB5010:Industrials:Farm & Heavy Construction Machinery
+PCG:XLU:Utilities:Utilities->Regulated Electric
+PCOR:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+PCT:XLI:GRNPOL:Industrials:Pollution & Treatment Controls
+PD:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+PDCE:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+PDD:XLY:NQUSB404010:FXI:Consumer Cyclical:Internet Retail
+PDI:XLF:NQUSL30202010T:Financial Services:Asset Management
+PEAK:XLRE:NQUSB35102010N:Real Estate:REIT->Healthcare Facilities
+PEB:XLRE:NQUSB35102015:Real Estate:REIT->Hotel & Motel
+PEG:XLU:Utilities:Utilities->Regulated Electric
+PENN:XLY:NQUSB40501020:Consumer Cyclical:Resorts & Casinos
+PEP:XLP:NQG4510:Consumer Defensive:Beverages->Non-Alcoholic
+PFE:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+PFG:XLF:NQUSL30202010T:Financial Services:Asset Management
+PFGC:XLP:NQG4520:Consumer Defensive:Food Distribution
+PG:XLP:NQG4520:Consumer Defensive:Household & Personal Products
+PGEN:XLV:NBI:IBB:Healthcare:Biotechnology
+PGR:XLF:KPX:INSR:KIX:Financial Services:Insurance->Property & Casualty
+PGY:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+PHG:XLV:NQUSB20102010:Healthcare:Medical Devices
+PHM:XLY:NQUSB40202010T:ITB:Consumer Cyclical:Residential Construction
+PHYS:XLF:NQUSL30202010T:Financial Services:Asset Management
+PINS:XLC:NQUSB101010:Communication Services:Internet Content & Information
+PK:XLRE:NQUSB35102015:Real Estate:REIT->Hotel & Motel
+PL:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+PLD:XLRE:NQUSB35102020:Real Estate:REIT->Industrial
+PLTR:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+PLUG:XLI:NQUSB502020:Industrials:Electrical Equipment & Parts
+PM:XLP:NQG4510:Consumer Defensive:Tobacco
+PNC:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+PNR:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+PPC:XLP:NQG4510:Consumer Defensive:Packaged Foods
+PPG:XLB:NQG5520:Basic Materials:Specialty Chemicals
+PPL:XLU:Utilities:Utilities->Regulated Electric
+PR:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+PRCH:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+PRGO:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+PRPL:XLY:NQUSB40202025:Consumer Cyclical:Furnishings, Fixtures & Appliances
+PRU:XLF:NQUSM303010:INSR:KIX:Financial Services:Insurance->Life
+PRVA:XLV:S5INFT:Healthcare:Health Information Services
+PRVB:XLV:NBI:IBB:Healthcare:Biotechnology
+PSA:XLRE:NQUSB35102020:Real Estate:REIT->Industrial
+PSEC:XLF:NQUSL30202010T:Financial Services:Asset Management
+PSLV:XLF:NQUSL30202010T:Financial Services:Asset Management
+PSNY:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+PSTG:XLK:NQUSB10102030:Technology:Computer Hardware
+PSX:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Refining & Marketing
+PTEN:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Drilling
+PTGX:XLV:NBI:IBB:Healthcare:Biotechnology
+PTON:XLY:NQUSB402030:Consumer Cyclical:Leisure
+PTRA:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+PUMP:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Equipment & Services
+PVH:XLY:NQUSB40204020:Consumer Cyclical:Apparel Manufacturing
+PXD:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+PYPL:XLF:NQUSB302010N:Financial Services:Credit Services
+QCOM:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+QRTEA:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+QRVO:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+QS:XLY:NQUSB40101025:Consumer Cyclical:Auto Parts
+QSR:XLY:NQUSB40501040:Consumer Cyclical:Restaurants
+RBA:XLI:Industrials:Specialty Business Services
+RBLX:XLC:NQUSB40301010:Communication Services:Electronic Gaming & Multimedia
+RCL:XLY:NQUSB40501015LM:Consumer Cyclical:Travel Services
+RCM:XLV:S5INFT:Healthcare:Health Information Services
+RDFN:XLRE:Real Estate:Real Estate Services
+RDN:XLF:INSR:KIX:Financial Services:Insurance->Specialty
+REI:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+RETA:XLV:NBI:IBB:Healthcare:Biotechnology
+REXR:XLRE:NQUSB35102020:Real Estate:REIT->Industrial
+RF:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+RIG:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Drilling
+RIO:XLB:NQUSB55102000:Basic Materials:Other Industrial Metals & Mining
+RIOT:XLK:BTCUSD:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+RITM:XLRE:NQUSB302030T:Real Estate:REIT->Mortgage
+RIVN:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+RKLB:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+RKT:XLF:NQUSB30201025:Financial Services:Mortgage Finance
+RL:XLY:NQUSB40204020:Consumer Cyclical:Apparel Manufacturing
+RLJ:XLRE:NQUSB35102015:Real Estate:REIT->Hotel & Motel
+RLX:XLP:NQG4510:FXI:Consumer Defensive:Tobacco
+RMBS:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+RNG:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+RNW:XLU:GRNREG:NQUSB601020:Utilities:Utilities->Renewable
+ROIV:XLV:NBI:IBB:Healthcare:Biotechnology
+ROKU:XLC:NQUSB40301010:Communication Services:Entertainment
+ROL:XLY:NQUSM402010:Consumer Cyclical:Personal Services
+ROST:XLY:NQUSB40401020:Consumer Cyclical:Apparel Retail
+RPRX:XLV:NBI:IBB:Healthcare:Biotechnology
+RRC:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+RSG:XLI:GRNPOL:Industrials:Waste Management
+RTX:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+RUM:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+RUN:XLK:GRNSOLARX:NQUSB601020:Technology:Solar
+RVLV:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+RVMD:XLV:NBI:IBB:Healthcare:Biotechnology
+RVNC:XLV:NBI:IBB:Healthcare:Biotechnology
+RXRX:XLV:NBI:IBB:Healthcare:Biotechnology
+S:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+SABR:XLY:NQUSB40501015LM:Consumer Cyclical:Travel Services
+SAN:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+SAND:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+SAVA:XLV:NBI:IBB:Healthcare:Biotechnology
+SAVE:XLI:NQUSB40501010:Industrials:Airlines
+SBH:XLY:NQUSB404010:Consumer Cyclical:Specialty Retail
+SBLK:XLI:NQUSB50206030:Industrials:Marine Shipping
+SBRA:XLRE:NQUSB35102010N:Real Estate:REIT->Healthcare Facilities
+SBS:XLU:GRNWATER:Utilities:Utilities->Regulated Water
+SBSW:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+SBUX:XLY:NQUSB40501040:Consumer Cyclical:Restaurants
+SCCO:XLB:COPX:COPPER:NQUSB55102000:Basic Materials:Copper
+SCHW:XLF:KSX:Financial Services:Capital Markets
+SCI:XLY:NQUSM402010:Consumer Cyclical:Personal Services
+SE:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+SEDG:XLK:GRNSOLARX:NQUSB601020:Technology:Solar
+SEE:XLY:NQUSB50203030:Consumer Cyclical:Packaging & Containers
+SENS:XLV:NQUSB20102010:Healthcare:Medical Devices
+SFIX:XLY:NQUSB40401020:Consumer Cyclical:Apparel Retail
+SFL:XLI:NQUSB50206030:Industrials:Marine Shipping
+SG:XLY:NQUSB40501040:Consumer Cyclical:Restaurants
+SGEN:XLV:NBI:IBB:Healthcare:Biotechnology
+SGFY:XLV:S5INFT:Healthcare:Health Information Services
+SGMO:XLV:NBI:IBB:Healthcare:Biotechnology
+SHAK:XLY:NQUSB40501040:Consumer Cyclical:Restaurants
+SHC:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+SHEL:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Integrated
+SHLS:XLK:GRNSOLARX:NQUSB601020:Technology:Solar
+SHO:XLRE:NQUSB35102015:Real Estate:REIT->Hotel & Motel
+SHOP:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+SHW:XLB:NQG5520:Basic Materials:Specialty Chemicals
+SI:XLF:BTCUSD:KRX:NQUSB3010N:Financial Services:Banks->Regional
+SID:XLB:NQUSB55102010:Basic Materials:Steel
+SILV:XLB:NQUSB55102000:Basic Materials:Other Precious Metals & Mining
+SIRI:XLC:NQUSB40301010:Communication Services:Entertainment
+SITC:XLRE:Real Estate:REIT->Retail
+SIX:XLY:NQUSB402030:Consumer Cyclical:Leisure
+SKIN:XLP:NQG4520:Consumer Defensive:Household & Personal Products
+SKX:XLY:NQUSB40204020:Consumer Cyclical:Footwear & Accessories
+SLB:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Equipment & Services
+SLDP:XLI:NQUSB502020:Industrials:Electrical Equipment & Parts
+SLG:XLRE:Real Estate:REIT->Office
+SLM:XLF:NQUSB302010N:Financial Services:Credit Services
+SLQT:XLF:INSR:KIX:Financial Services:Insurance Brokers
+SM:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+SMAR:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+SMCI:XLK:NQUSB10102030:Technology:Computer Hardware
+SMFG:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+SMMT:XLV:NBI:IBB:Healthcare:Biotechnology
+SNAP:XLC:NQUSB101010:Communication Services:Internet Content & Information
+SNDL:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+SNOW:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+SNV:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+SNY:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->General
+SO:XLU:Utilities:Utilities->Regulated Electric
+SOFI:XLF:NQUSB302010N:Financial Services:Credit Services
+SONO:XLK:NQUSB40203010:Technology:Consumer Electronics
+SPCE:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+SPG:XLRE:Real Estate:REIT->Retail
+SPGI:XLF:NQUSB30201030:Financial Services:Financial Data & Stock Exchanges
+SPLK:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+SPOT:XLC:NQUSB101010:Communication Services:Internet Content & Information
+SPR:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+SPWR:XLK:GRNSOLARX:NQUSB601020:Technology:Solar
+SQ:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+SQM:XLB:NQG5520:Basic Materials:Specialty Chemicals
+SRE:XLU:Utilities:Utilities->Diversified
+SRPT:XLV:NBI:IBB:Healthcare:Biotechnology
+SSNC:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+SSRM:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+STEM:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+STLA:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+STLD:XLB:NQUSB55102010:Basic Materials:Steel
+STM:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+STNE:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+STNG:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+STT:XLF:NQUSL30202010T:Financial Services:Asset Management
+STWD:XLRE:NQUSB302030T:Real Estate:REIT->Mortgage
+STX:XLK:NQUSB10102030:Technology:Computer Hardware
+STZ:XLP:NQG4510:Consumer Defensive:Beverages->Wineries & Distilleries
+SU:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Integrated
+SUMO:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+SUZ:XLB:NQUSB55101015:Basic Materials:Paper & Paper Products
+SVC:XLRE:NQUSB35102015:Real Estate:REIT->Hotel & Motel
+SWK:XLI:Industrials:Tools & Accessories
+SWKS:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+SWN:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+SYF:XLF:NQUSB302010N:Financial Services:Credit Services
+SYNH:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+SYY:XLP:NQG4520:Consumer Defensive:Food Distribution
+T:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+TA:XLY:NQUSB404010:Consumer Cyclical:Specialty Retail
+TAK:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+TAL:XLP:NQUSB40201010N:FXI:Consumer Defensive:Education & Training Services
+TALO:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+TAP:XLP:NQG4510:Consumer Defensive:Beverages->Brewers
+TCOM:XLY:NQUSB40501015LM:FXI:Consumer Cyclical:Travel Services
+TD:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+TDC:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+TDOC:XLV:S5INFT:Healthcare:Health Information Services
+TDS:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+TEAM:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+TECH:XLV:NBI:IBB:Healthcare:Biotechnology
+TECK:XLB:NQUSB55102000:Basic Materials:Other Industrial Metals & Mining
+TEL:XLK:NQUSB502020:Technology:Electronic Components
+TELL:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+TER:XLK:NQUSB10102020N:NQUSB10102010N:SMH:Technology:Semiconductor Equipment & Materials
+TEVA:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+TFC:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+TGB:XLB:COPX:COPPER:NQUSB55102000:Basic Materials:Copper
+TGNA:XLC:NQUSM40301035T:Communication Services:Broadcasting
+TGT:XLP:NQG4520:Consumer Defensive:Discount Stores
+TGTX:XLV:NBI:IBB:Healthcare:Biotechnology
+THC:XLV:NQUSB201010LMN:Healthcare:Medical Care Facilities
+TJX:XLY:NQUSB40401020:Consumer Cyclical:Apparel Retail
+TLRY:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+TME:XLC:NQUSB101010:FXI:Communication Services:Internet Content & Information
+TMO:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+TMUS:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+TOL:XLY:NQUSB40202010T:ITB:Consumer Cyclical:Residential Construction
+TOST:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+TPH:XLY:NQUSB40202010T:ITB:Consumer Cyclical:Residential Construction
+TPR:XLY:NQUSB40204020:Consumer Cyclical:Luxury Goods
+TPX:XLY:NQUSB40202025:Consumer Cyclical:Furnishings, Fixtures & Appliances
+TREX:XLI:NQUSB5010:Industrials:Building Products & Equipment
+TRGP:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+TRIP:XLY:NQUSB40501015LM:Consumer Cyclical:Travel Services
+TRMB:XLK:NQUSM101020N:Technology:Scientific & Technical Instruments
+TRNO:XLRE:NQUSB35102020:Real Estate:REIT->Industrial
+TROW:XLF:NQUSL30202010T:Financial Services:Asset Management
+TROX:XLB:NQG5520:Basic Materials:Chemicals
+TRP:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+TRU:XLF:NQUSB302010N:Industrials:Consulting Services
+TRV:XLF:KPX:INSR:KIX:Financial Services:Insurance->Property & Casualty
+TS:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Equipment & Services
+TSCO:XLY:NQUSB404010:Consumer Cyclical:Specialty Retail
+TSLA:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+TSM:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+TSN:XLP:NQUSB45102010:Consumer Defensive:Farm Products
+TSP:XLI:NQUSB50206010:Industrials:Trucking
+TT:XLI:NQUSB5010:Industrials:Building Products & Equipment
+TTD:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+TTE:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Integrated
+TTWO:XLC:NQUSB40301010:Communication Services:Electronic Gaming & Multimedia
+TU:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+TV:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+TVTX:XLV:NBI:IBB:Healthcare:Biotechnology
+TWLO:XLC:NQUSB101010:Communication Services:Internet Content & Information
+TWO:XLRE:NQUSB302030T:Real Estate:REIT->Mortgage
+TWOU:XLP:NQUSB40201010N:Consumer Defensive:Education & Training Services
+TWST:XLV:NBI:IBB:Healthcare:Diagnostics & Research
+TXG:XLV:S5INFT:Healthcare:Health Information Services
+TXN:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+TXRH:XLY:NQUSB40501040:Consumer Cyclical:Restaurants
+TXT:XLI:NQUSB50201010:NQUSB50201020N:Industrials:Aerospace & Defense
+U:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+UA:XLY:NQUSB40204020:Consumer Cyclical:Apparel Manufacturing
+UAA:XLY:NQUSB40204020:Consumer Cyclical:Apparel Manufacturing
+UAL:XLI:NQUSB40501010:Industrials:Airlines
+UBER:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+UBS:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+UDR:XLRE:NQUSB35102040:Real Estate:REIT->Residential
+UEC:XLE:URA:NQUSB55102000:Energy:Uranium
+UGP:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Refining & Marketing
+UL:XLP:NQG4520:Consumer Defensive:Household & Personal Products
+ULCC:XLI:NQUSB40501010:Industrials:Airlines
+UMC:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+UNH:XLV:NQUSB201010LMN:Healthcare:Healthcare Plans
+UNIT:XLRE:Real Estate:REIT->Specialty
+UNM:XLF:NQUSM303010:INSR:KIX:Financial Services:Insurance->Life
+UNP:XLI:NQUSB50206020:Industrials:Railroads
+UNVR:XLB:NQG5520:Basic Materials:Chemicals
+UPS:XLI:TRAN:NQUSB50206010:NQUSB50206020:NQUSB50206030:Industrials:Integrated Freight & Logistics
+UPST:XLF:NQUSB302010N:Financial Services:Credit Services
+UPWK:XLI:Industrials:Staffing & Employment Services
+URBN:XLY:NQUSB40401020:Consumer Cyclical:Apparel Retail
+USB:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+USFD:XLP:NQG4520:Consumer Defensive:Food Distribution
+UUUU:XLE:URA:NQUSB55102000:Energy:Uranium
+V:XLF:NQUSB302010N:Financial Services:Credit Services
+VALE:XLB:NQUSB55102000:Basic Materials:Other Industrial Metals & Mining
+VEON:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+VERU:XLV:NBI:IBB:Healthcare:Biotechnology
+VET:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+VFC:XLY:NQUSB40204020:Consumer Cyclical:Apparel Manufacturing
+VIAV:XLK:NQUSB15:IXTC:Technology:Communication Equipment
+VICI:XLRE:NQUSB35102000:Real Estate:REIT->Diversified
+VIPS:XLY:NQUSB404010:FXI:Consumer Cyclical:Internet Retail
+VIR:XLV:NBI:IBB:Healthcare:Biotechnology
+VIRT:XLF:KSX:Financial Services:Capital Markets
+VIV:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+VKTX:XLV:NBI:IBB:Healthcare:Biotechnology
+VLD:XLK:NQUSB10102030:Technology:Computer Hardware
+VLO:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Refining & Marketing
+VLY:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+VMC:XLB:NQUSB50101035N:Basic Materials:Building Materials
+VMEO:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+VMW:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+VNET:XLK:S5INFT:FXI:Technology:Information Technology Services
+VNO:XLRE:Real Estate:REIT->Office
+VOD:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+VOYA:XLF:NQG3020:Financial Services:Financial Conglomerates
+VRNS:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+VRSK:XLF:NQUSB302010N:Industrials:Consulting Services
+VRT:XLI:NQUSB502020:Industrials:Electrical Equipment & Parts
+VRTX:XLV:NBI:IBB:Healthcare:Biotechnology
+VSCO:XLY:NQUSB40401020:Consumer Cyclical:Apparel Retail
+VSH:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+VST:XLU:Utilities:Utilities->Independent Power Producers
+VTNR:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Refining & Marketing
+VTR:XLRE:NQUSB35102010N:Real Estate:REIT->Healthcare Facilities
+VTRS:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+VVNT:XLI:NQUSB50205040N:Industrials:Security & Protection Services
+VVV:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Refining & Marketing
+VZ:XLC:NQUSB15:IXTC:Communication Services:Telecom Services
+W:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+WAL:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+WBA:XLV:NQG4520:Healthcare:Pharmaceutical Retailers
+WBD:XLC:NQUSB40301010:Communication Services:Entertainment
+WDAY:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+WDC:XLK:NQUSB10102030:Technology:Computer Hardware
+WE:XLRE:Real Estate:Real Estate Services
+WELL:XLRE:NQUSB35102010N:Real Estate:REIT->Healthcare Facilities
+WEN:XLY:NQUSB40501040:Consumer Cyclical:Restaurants
+WFC:XLF:NQUSB3010N:BKX:KBWB:Financial Services:Banks->Diversified
+WGS:XLV:S5INFT:Healthcare:Health Information Services
+WISH:XLY:NQUSB404010:Consumer Cyclical:Internet Retail
+WIT:XLK:S5INFT:Technology:Information Technology Services
+WKHS:XLY:NQG4010:Consumer Cyclical:Auto Manufacturers
+WM:XLI:GRNPOL:Industrials:Waste Management
+WMB:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Midstream
+WMG:XLC:NQUSB40301010:Communication Services:Entertainment
+WMT:XLP:NQG4520:Consumer Defensive:Discount Stores
+WOLF:XLK:NQUSB10102010N:SMH:Technology:Semiconductors
+WOOF:XLY:NQUSB404010:Consumer Cyclical:Specialty Retail
+WPM:XLB:NQUSB55103025:GDX:GOLD:NQUSB55102000:Basic Materials:Gold
+WRB:XLF:KPX:INSR:KIX:Financial Services:Insurance->Property & Casualty
+WRK:XLY:NQUSB50203030:Consumer Cyclical:Packaging & Containers
+WSC:XLI:NQUSM402010:Industrials:Rental & Leasing Services
+WT:XLF:NQUSL30202010T:Financial Services:Asset Management
+WTI:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas E&P
+WU:XLF:NQUSB302010N:Financial Services:Credit Services
+WW:XLY:NQUSM402010:Consumer Cyclical:Personal Services
+WWW:XLY:NQUSB40204020:Consumer Cyclical:Footwear & Accessories
+WY:XLRE:Real Estate:REIT->Specialty
+WYNN:XLY:NQUSB40501020:Consumer Cyclical:Resorts & Casinos
+X:XLB:NQUSB55102010:Basic Materials:Steel
+XEL:XLU:Utilities:Utilities->Regulated Electric
+XM:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+XOM:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Integrated
+XP:XLF:KSX:Financial Services:Capital Markets
+XPEV:XLY:NQG4010:FXI:Consumer Cyclical:Auto Manufacturers
+XPO:XLI:NQUSB50206010:Industrials:Trucking
+XRAY:XLV:NQUSB20102015:Healthcare:Medical Instruments & Supplies
+XYL:XLI:NQUSB50204050:Industrials:Specialty Industrial Machinery
+YETI:XLY:NQUSB402030:Consumer Cyclical:Leisure
+YMM:XLK:NQUSM101010:NQUSL10101015N:FXI:Technology:Software->Application
+YOU:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+YPF:XLE:XOP:NQUSB60101010:CL1!:NG1!:Energy:Oil & Gas Integrated
+YSG:XLP:NQG4520:FXI:Consumer Defensive:Household & Personal Products
+YUM:XLY:NQUSB40501040:Consumer Cyclical:Restaurants
+YUMC:XLY:NQUSB40501040:FXI:Consumer Cyclical:Restaurants
+Z:XLC:NQUSB101010:Communication Services:Internet Content & Information
+ZBH:XLV:NQUSB20102010:Healthcare:Medical Devices
+ZH:XLC:NQUSB101010:FXI:Communication Services:Internet Content & Information
+ZI:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+ZIM:XLI:NQUSB50206030:Industrials:Marine Shipping
+ZION:XLF:KRX:NQUSB3010N:Financial Services:Banks->Regional
+ZM:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Application
+ZS:XLK:NQUSM101010:NQUSL10101015N:Technology:Software->Infrastructure
+ZTO:XLI:TRAN:NQUSB50206010:NQUSB50206020:NQUSB50206030:FXI:Industrials:Integrated Freight & Logistics
+ZTS:XLV:NQUSB20103015:NBI:IBB:Healthcare:Drug Manufacturers->Specialty & Generic
+ZWS:XLI:GRNPOL:Industrials:Pollution & Treatment Controls
