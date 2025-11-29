@@ -1,0 +1,93 @@
+//This source code is subject to the terms of the MIT License at https://opensource.org/licenses/MIT
+//u/ProminentRetail
+
+//@version=5
+indicator("Relative Strength", "RS", precision = 2)
+
+
+reference = input.symbol("SPY", "Reference Symbol")
+intradayRSPeriod = input.int(6, "Intraday RS Period", minval = 1)
+dwmRSPeriod = input.int(5, "Daily/Weekly/Monthly RS Period", minval = 1)
+intradayAverageChangePeriod = input.int(20, "Intraday Average Change Period", minval = 1)
+dwmAverageChangePeriod = input.int(50, "Daily/Weekly/Monthly Average Change Period", minval = 1)
+highlightThreshold = input.float(0.1, "RS Highlight Threshold", minval = 0.1)
+correlationDotSize = input.int(2, "Correlation Dot Size", minval = 1)
+
+//RS CALCULATION//
+
+calculateRS(period) =>
+    averageChangePeriod = timeframe.isintraday ? intradayAverageChangePeriod : dwmAverageChangePeriod
+    changeFactor = (ta.change(close, period) / close[period]) / ta.sma(math.abs(ta.change(close) / close[1]), na(ta.change(close, averageChangePeriod)) ? 20 : averageChangePeriod)
+    changeFactor - request.security(reference, timeframe.period, changeFactor)
+
+rsPeriod = timeframe.isintraday ? intradayRSPeriod : dwmRSPeriod
+rsPeriod := na(ta.change(close, rsPeriod)) ? 5 : rsPeriod
+rs = calculateRS(rsPeriod)
+singlePeriodRS = calculateRS(1)
+threePeriodRS = calculateRS(3)
+
+// examine
+correlation = ta.correlation(close, request.security(reference, timeframe.period, close), rsPeriod)
+correlationColor = color.rgb(239 - 113 * (correlation + 1), 83 + 50 * (correlation + 1), 80 + 27.5 * (correlation + 1))
+
+plot(rs, "Relative Strength", rs > 0 ? color.rgb(13, 183, 135, singlePeriodRS > highlightThreshold ? 0 : 50) : color.rgb(239, 83, 80, singlePeriodRS < -highlightThreshold ? 0 : 50), style = plot.style_columns)
+//plot(timeframe.isintraday ? threePeriodRS: na, "Three Period Relative Strength", threePeriodRS > 0 ? color.rgb(13, 183, 135, 100) : color.rgb(239, 83, 80, 100))
+plot(threePeriodRS, "Three Period Relative Strength", threePeriodRS > 0 ? color.rgb(13, 183, 135, 100) : color.rgb(239, 83, 80, 100))
+
+
+plot(singlePeriodRS, "Single Period Relative Strength", color.new(color.aqua, 100))
+// singlePeriodRS > highlightThreshold ? 0 : 50
+//singlePeriodRS < -highlightThreshold ? 0 : 50)
+
+plot(0, "Correlation Outline", color.rgb(0, 0, 0), style = plot.style_circles, linewidth = correlationDotSize + 2)
+plot(0, "Correlation", correlationColor, style = plot.style_circles, linewidth = correlationDotSize)
+
+//Defiant RS/RW//
+
+tsi(long, short) =>
+    change = ta.change(close)
+    100 * ta.ema(ta.ema(change, long), short) / ta.ema(ta.ema(math.abs(change), long), short)
+
+shortTSI = tsi(8, 5)
+referenceShortTSI = request.security(reference, timeframe.period, shortTSI, lookahead = barmerge.lookahead_on)
+defiance = 0.0
+
+if math.sign(shortTSI) != math.sign(referenceShortTSI) and math.abs(shortTSI) > 20 and math.abs(referenceShortTSI) > 20
+    defiance := math.abs(shortTSI - referenceShortTSI) - 40
+
+plotchar(defiance, "Defiance", "", location.top, defiance >= 40.0 ? color.new(color.red, 100) : color.new(color.orange, 100))
+
+rsCriteria = 0 // bool
+requiredRS = 0.0 // int
+
+
+
+if timeframe.isdaily 
+    requiredRS := 2
+    if reference == "AMEX:SPY" or reference == "AMEX:FXI"
+        requiredRS := 3
+    if math.abs(singlePeriodRS + rs) > requiredRS
+        rsCriteria := 1
+
+if timeframe.isintraday
+    
+    directionFromVwap = close >= ta.vwap(close) ? 1 : -1
+
+    requiredRS := 0.2
+    if directionFromVwap == 1
+        if singlePeriodRS > requiredRS * directionFromVwap
+            rsCriteria := 1
+    else if directionFromVwap == -1
+        if singlePeriodRS < requiredRS * directionFromVwap
+            rsCriteria := 1
+
+rsCriteria :=  timeframe.isdaily or timeframe.isintraday ? rsCriteria : na
+plot(rsCriteria, "rsCriteria",  color.rgb(33, 150, 243,100))
+
+
+// matchCriteria = 0
+// if timeframe.isdaily and reference == "SPY" and (singlePeriodRS + rs) >  3
+//     matchCriteria := 1
+// if timeframe.isdaily and reference != "SPY" and (singlePeriodRS + rs) > 2
+//     matchCriteria := 1
+// plotchar(matchCriteria, "RSCriteria")

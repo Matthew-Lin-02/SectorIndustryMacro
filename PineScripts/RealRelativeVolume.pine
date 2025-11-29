@@ -1,0 +1,67 @@
+//This source code is subject to the terms of the MIT License at https://opensource.org/licenses/MIT
+//u/ProminentRetail, u/HurlTeaInTheSea
+
+//@version=5
+indicator("Real Relative Volume", "RRVOL", precision = 2)
+
+reference = input.symbol("SPY", "Reference Symbol")
+period = input.int(100, "Average Volume Period", minval = 1)
+highlightThreshold = input.float(1.0, "RRVOL Highlight Threshold", minval = 0.0, step = 0.1)
+colorBasedOnPreviousClose = input.bool(true, "Color Based on Previous Close")
+moneyFlowPeriod = input.int(8, "Real Money Flow Period", minval = 1)
+moneyFlowSmoothing = input.int(5, "Real Money Flow Smoothing", minval = 1)
+
+var cVol = 0.0
+var referenceCVol = 0.0
+var volumeRatios = array.new_float()
+
+var lastHighlightedUp = 0.0
+var lastHighlightedDown = 0.0
+var lastUp = 0.0
+var lastDown = 0.0
+
+referenceVolume = request.security(reference, timeframe.period, volume)
+cVol := cVol + volume
+referenceCVol := referenceCVol + referenceVolume
+
+isNewDay() =>
+    t = time("D")
+    na(t[1]) and not na(t) or t[1] < t
+
+if isNewDay()
+    if array.size(volumeRatios) == period
+        array.remove(volumeRatios, 0)
+
+    array.push(volumeRatios, cVol / referenceCVol)
+
+    cVol := volume
+    referenceCVol := referenceVolume
+    line.new(bar_index, 0, bar_index, 1, extend = extend.right, color = timeframe.isintraday ? color.gray : na, style = line.style_dotted)
+
+rVol = (cVol / referenceCVol) / array.avg(volumeRatios)
+
+useUpColor = colorBasedOnPreviousClose ? close >= close[1] : close >= open
+
+if timeframe.isdwm and rVol >= highlightThreshold and math.abs(close - close[1]) / close > 0.0005 //Don't include flat days in control calculation: see LKQ 16 Feb 2023
+    if useUpColor
+        lastHighlightedUp := rVol
+
+        if lastHighlightedUp > lastHighlightedDown
+            lastHighlightedDown := 0.0
+    else
+        lastHighlightedDown := rVol
+
+        if lastHighlightedDown > lastHighlightedUp
+            lastHighlightedUp := 0.0
+
+highlight = rVol >= highlightThreshold
+highlightStrong = timeframe.isdwm and (useUpColor ? lastHighlightedDown == 0.0 : lastHighlightedUp == 0.0)
+highlightColor = highlight ? (useUpColor ? (timeframe.isdwm and highlightStrong ? #0DB787 : #26A6A4) : (timeframe.isdwm and highlightStrong ? #EF5350 : #AF4747)) : (useUpColor ? #26A6A480 : #AF474780)
+
+hline(1.0, "Reference", color = color.silver, linestyle = hline.style_dotted)
+plot(rVol, "Real Relative Volume", style = plot.style_columns, color = highlightColor)
+
+rVolThreshold = 0.8
+rVolCriteria = rVol >= rVolThreshold ? 1 : 0
+rVolCriteria := timeframe.isdaily ? rVolCriteria : na
+plot(rVolCriteria, "rsCriteria",  color.rgb(33, 150, 243,100))

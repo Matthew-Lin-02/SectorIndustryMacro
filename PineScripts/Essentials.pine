@@ -1,0 +1,119 @@
+//This source code is subject to the terms of the MIT License at https://opensource.org/licenses/MIT
+//ProminentRetail
+
+//@version=5
+indicator("Essentials", overlay = true, precision = 2)
+significantCandles = input.bool(true, "Significant Candles")
+movingAverages = input.bool(true, "Moving Averages")
+
+filterDistantPrice(price) => math.abs(price - close) < ta.sma((high - low) / close, 10) * close * 3.5 ? price : na
+
+getSMA(timeframe, period) => movingAverages ? filterDistantPrice(request.security(syminfo.tickerid, timeframe, ta.sma(close, period), lookahead = barmerge.lookahead_on)) : na
+
+bodyHigh = math.max(open, close)
+bodyLow = math.min(open, close)
+bodySize = bodyHigh - bodyLow
+topWick = high - bodyHigh
+bottomWick = bodyLow - low
+
+//We use a smoothing factor of 2 to reduce the effects of significant outliers.
+shortAverageRange = ta.ema(ta.ema((high - low) / close, 10), 2) * close
+longAverageRange = nz(ta.ema(ta.ema((high - low) / close, 30), 2) * close, shortAverageRange)
+averageRange = math.max(shortAverageRange, longAverageRange)
+
+//Prioritise exceptionally long wicks--on relevant timeframes, they present as full-bodied candles in their own right
+longWickThreshold = math.max(bodySize * 2.5, averageRange)
+topWickWeight = topWick > longWickThreshold ? 2.0 / 3.0 : 0.5
+bottomWickWeight = bottomWick > longWickThreshold ? 2.0 / 3.0 : 0.5
+effectiveBodySize = bodySize + topWick * topWickWeight + bottomWick * bottomWickWeight
+significantCandle = significantCandles and effectiveBodySize / averageRange > 1.0
+maxWickSpan = math.max(high - low[1], high[1] - low)
+impliedSignificantCandle = (maxWickSpan / averageRange > 1.5 and effectiveBodySize / averageRange > 0.8) or (maxWickSpan / averageRange > 1.35 and effectiveBodySize / averageRange + effectiveBodySize[1] / averageRange[1] > 1.5)
+shortAverageBodySize = ta.ema(ta.ema(bodySize / close, 10), 2) * close
+longAverageBodySize = nz(ta.ema(ta.ema(bodySize / close, 30), 2) * close, shortAverageBodySize)
+averageBodySize = math.max(shortAverageBodySize, longAverageBodySize)
+impliedSTH = topWick / averageBodySize > 1.2
+impliedSTL = bottomWick / averageBodySize > 1.2
+//We use the short average range because it's more important that we engulf recent candles for an accumulation fractal.
+bullishImpulseCandle = bottomWick / shortAverageRange > 1.2
+bearishImpulseCandle = topWick / shortAverageRange > 1.2
+
+plot(getSMA("M", 50), "50-month SMA", color.rgb(255, 0, 0, 40), style = plot.style_cross, linewidth = 2)
+plot(getSMA("M", 100), "100-month SMA", color.rgb(204, 204, 0, 40), style = plot.style_cross, linewidth = 2)
+plot(getSMA("M", 200), "200-month SMA", color.rgb(0, 255, 0, 40), style = plot.style_cross, linewidth = 2)
+plot(getSMA("12M", 10), "10-year SMA", color.rgb(0, 96, 255, 40), style = plot.style_cross, linewidth = 2)
+
+plotchar(impliedSTH, "Implied STH", "", location.top, color.new(color.green, 100))
+plotchar(impliedSTL, "Implied STL", "", location.top, color.new(color.red, 100))
+plotchar(bullishImpulseCandle, "Bullish Impulse Candle", "", location.top, color.new(color.green, 100))
+plotchar(bearishImpulseCandle, "Bearish Impulse Candle", "", location.top, color.new(color.red, 100))
+
+barcolor(open > close ? (significantCandle ? color.new(color.red, 70) : (impliedSignificantCandle ? color.new(color.red, 50) : color.red)) : (significantCandle ? color.new(color.green, 70) : (impliedSignificantCandle ? color.new(color.green, 50) : color.green)))
+
+
+intradayRSPeriod = input.int(6, "Intraday RS Period", minval = 1)
+dwmRSPeriod = input.int(5, "Daily/Weekly/Monthly RS Period", minval = 1)
+intradayAverageChangePeriod = input.int(20, "Intraday Average Change Period", minval = 1)
+dwmAverageChangePeriod = input.int(50, "Daily/Weekly/Monthly Average Change Period", minval = 1)
+highlightThreshold = input.float(0.1, "RS Highlight Threshold", minval = 0.1)
+
+//RS CALCULATION//
+
+calculateRS(period, reference) =>
+    averageChangePeriod = timeframe.isintraday ? intradayAverageChangePeriod : dwmAverageChangePeriod
+    changeFactor = (ta.change(close, period) / close[period]) / ta.sma(math.abs(ta.change(close) / close[1]), na(ta.change(close, averageChangePeriod)) ? 20 : averageChangePeriod)
+    changeFactor - request.security(reference, timeframe.period, changeFactor)
+
+
+rsPeriod = timeframe.isintraday ? intradayRSPeriod : dwmRSPeriod
+rsPeriod := na(ta.change(close, rsPeriod)) ? 5 : rsPeriod
+
+// SPY
+referenceSpy = input.symbol("SPY", "Reference Symbol")
+spyRS = calculateRS(rsPeriod, referenceSpy)
+spySinglePeriodRS = calculateRS(1, referenceSpy)
+spyThreePeriodRS = calculateRS(3, referenceSpy)
+
+plot(spyRS, "Relative Strength", spyRS > 0 ? color.rgb(13, 183, 135, spySinglePeriodRS > highlightThreshold ? 0 : 50) : color.rgb(239, 83, 80, spySinglePeriodRS < -highlightThreshold ? 0 : 50))
+plot(spySinglePeriodRS, "Single Period Relative Strength", color.new(color.aqua, 100))
+plot(spyThreePeriodRS, "Three Period Relative Strength", spyThreePeriodRS > 0 ? color.rgb(13, 183, 135, 100) : color.rgb(239, 83, 80, 100))
+
+
+// Sector 
+referenceSector = input.symbol("SPY", "Reference Symbol")
+sectorRS = calculateRS(rsPeriod, referenceSector)
+sectorSinglePeriodRS = calculateRS(1, referenceSector)
+sectorThreePeriodRS = calculateRS(3, referenceSector)
+
+plot(sectorRS, "Relative Strength", sectorRS > 0 ? color.rgb(13, 183, 135, sectorSinglePeriodRS > highlightThreshold ? 0 : 50) : color.rgb(239, 83, 80, sectorSinglePeriodRS < -highlightThreshold ? 0 : 50))
+plot(sectorSinglePeriodRS, "Single Period Relative Strength", color.new(color.aqua, 100))
+plot(sectorThreePeriodRS, "Three Period Relative Strength", sectorThreePeriodRS > 0 ? color.rgb(13, 183, 135, 100) : color.rgb(239, 83, 80, 100))
+
+
+// Industry
+referenceIndustry = input.symbol("SPY", "Reference Symbol")
+industryRS = calculateRS(rsPeriod, referenceIndustry)
+industrySinglePeriodRS = calculateRS(1, referenceIndustry)
+industryThreePeriodRS = calculateRS(3, referenceIndustry)
+
+plot(industryRS, "Relative Strength", industryRS > 0 ? color.rgb(13, 183, 135, industrySinglePeriodRS > highlightThreshold ? 0 : 50) : color.rgb(239, 83, 80, industrySinglePeriodRS < -highlightThreshold ? 0 : 50))
+plot(industrySinglePeriodRS, "Single Period Relative Strength", color.new(color.aqua, 100))
+plot(industryThreePeriodRS, "Three Period Relative Strength", industryThreePeriodRS > 0 ? color.rgb(13, 183, 135, 100) : color.rgb(239, 83, 80, 100))
+
+
+evaluateRSCrtieria(reference, singlePeriodRS, rs) =>
+    requiredRS = 2
+
+    if reference == "AMEX:SPY" or reference == "AMEX:FXI"
+        requiredRS := 3
+    singlePeriodRS + rs > requiredRS ? 1 : 0
+// took math.abs off of singlePeriodRS + rs to identify RS and not just RS/RW
+
+rsCriteria = 0
+if evaluateRSCrtieria(referenceSpy, spySinglePeriodRS, spyRS) and 
+ evaluateRSCrtieria(referenceSector, sectorSinglePeriodRS, sectorRS) and 
+  evaluateRSCrtieria(referenceIndustry, industrySinglePeriodRS, industryRS)
+    rsCriteria := 1
+
+// rsCriteria :=  timeframe.isdaily or timeframe.isintraday ? rsCriteria : na
+plot(rsCriteria, "rsCriteria",  color.rgb(33, 150, 243,100))
