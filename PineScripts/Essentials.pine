@@ -59,60 +59,81 @@ highlightThreshold = input.float(0.1, "RS Highlight Threshold", minval = 0.1)
 
 //RS CALCULATION//
 
-calculateRS(period, reference) =>
-    averageChangePeriod = timeframe.isintraday ? intradayAverageChangePeriod : dwmAverageChangePeriod
-    changeFactor = (ta.change(close, period) / close[period]) / ta.sma(math.abs(ta.change(close) / close[1]), na(ta.change(close, averageChangePeriod)) ? 20 : averageChangePeriod)
-    changeFactor - request.security(reference, timeframe.period, changeFactor)
+// calculateRS(period, reference) =>
+//     averageChangePeriod = timeframe.isintraday ? intradayAverageChangePeriod : dwmAverageChangePeriod
+//     changeFactor = (ta.change(close, period) / close[period]) / ta.sma(math.abs(ta.change(close) / close[1]), na(ta.change(close, averageChangePeriod)) ? 20 : averageChangePeriod)
+//     changeFactor - request.security(reference, timeframe.period, changeFactor)
 
+// assumption is that timeframe is dwm 
+//use syminfo.tickerid as baseSymbol parameter
+calculateRS(period, baseSymbol, referenceSymbol, timeframe) =>
+    
+    averageChangePeriod = dwmAverageChangePeriod
+    changeFactor = (ta.change(close, period) / close[period]) / ta.sma(math.abs(ta.change(close) / close[1]), na(ta.change(close, averageChangePeriod)) ? 20 : averageChangePeriod)
+
+    baseCF = request.security(baseSymbol, timeframe, changeFactor)
+    refCF  = request.security(referenceSymbol, timeframe, changeFactor)
+
+    baseCF - refCF
 
 rsPeriod = timeframe.isintraday ? intradayRSPeriod : dwmRSPeriod
 rsPeriod := na(ta.change(close, rsPeriod)) ? 5 : rsPeriod
 
-// SPY
+// --------------------------------------------------- SPY -----------------------------------------------------
+
+// D
 referenceSpy = input.symbol("SPY", "Reference Symbol")
 spyRS = calculateRS(rsPeriod, referenceSpy)
 spySinglePeriodRS = calculateRS(1, referenceSpy)
-spyThreePeriodRS = calculateRS(3, referenceSpy)
+// spyThreePeriodRS = calculateRS(3, referenceSpy)
 
 plot(spyRS, "Relative Strength", spyRS > 0 ? color.rgb(13, 183, 135, spySinglePeriodRS > highlightThreshold ? 0 : 50) : color.rgb(239, 83, 80, spySinglePeriodRS < -highlightThreshold ? 0 : 50))
 plot(spySinglePeriodRS, "Single Period Relative Strength", color.new(color.aqua, 100))
-plot(spyThreePeriodRS, "Three Period Relative Strength", spyThreePeriodRS > 0 ? color.rgb(13, 183, 135, 100) : color.rgb(239, 83, 80, 100))
+// plot(spyThreePeriodRS, "Three Period Relative Strength", spyThreePeriodRS > 0 ? color.rgb(13, 183, 135, 100) : color.rgb(239, 83, 80, 100))
+
 
 
 // Sector 
 referenceSector = input.symbol("SPY", "Reference Symbol")
 sectorRS = calculateRS(rsPeriod, referenceSector)
 sectorSinglePeriodRS = calculateRS(1, referenceSector)
-sectorThreePeriodRS = calculateRS(3, referenceSector)
+// sectorThreePeriodRS = calculateRS(3, referenceSector)
 
 plot(sectorRS, "Relative Strength", sectorRS > 0 ? color.rgb(13, 183, 135, sectorSinglePeriodRS > highlightThreshold ? 0 : 50) : color.rgb(239, 83, 80, sectorSinglePeriodRS < -highlightThreshold ? 0 : 50))
 plot(sectorSinglePeriodRS, "Single Period Relative Strength", color.new(color.aqua, 100))
-plot(sectorThreePeriodRS, "Three Period Relative Strength", sectorThreePeriodRS > 0 ? color.rgb(13, 183, 135, 100) : color.rgb(239, 83, 80, 100))
+// plot(sectorThreePeriodRS, "Three Period Relative Strength", sectorThreePeriodRS > 0 ? color.rgb(13, 183, 135, 100) : color.rgb(239, 83, 80, 100))
 
 
 // Industry
 referenceIndustry = input.symbol("SPY", "Reference Symbol")
 industryRS = calculateRS(rsPeriod, referenceIndustry)
 industrySinglePeriodRS = calculateRS(1, referenceIndustry)
-industryThreePeriodRS = calculateRS(3, referenceIndustry)
+// industryThreePeriodRS = calculateRS(3, referenceIndustry)
 
 plot(industryRS, "Relative Strength", industryRS > 0 ? color.rgb(13, 183, 135, industrySinglePeriodRS > highlightThreshold ? 0 : 50) : color.rgb(239, 83, 80, industrySinglePeriodRS < -highlightThreshold ? 0 : 50))
 plot(industrySinglePeriodRS, "Single Period Relative Strength", color.new(color.aqua, 100))
-plot(industryThreePeriodRS, "Three Period Relative Strength", industryThreePeriodRS > 0 ? color.rgb(13, 183, 135, 100) : color.rgb(239, 83, 80, 100))
+// plot(industryThreePeriodRS, "Three Period Relative Strength", industryThreePeriodRS > 0 ? color.rgb(13, 183, 135, 100) : color.rgb(239, 83, 80, 100))
 
 
-evaluateRSCrtieria(reference, singlePeriodRS, rs) =>
-    requiredRS = 2
+// evaluateRSCriteria(reference, singlePeriodRS, rs) =>
+//     requiredRS = 2
 
-    if reference == "AMEX:SPY" or reference == "AMEX:FXI"
-        requiredRS := 3
-    singlePeriodRS + rs > requiredRS ? 1 : 0
+//     if reference == "AMEX:SPY" or reference == "AMEX:FXI"
+//         requiredRS := 3
+//     singlePeriodRS + rs > requiredRS ? 1 : 0
+
+evaluateRSCriteria(referenceSymbol, tf) =>
+    rsP = calculateRS(rsPeriod, referenceSymbol, tf)
+    rs1 = calculateRS(1, referenceSymbol, tf)
+
+    requiredRS = (referenceSymbol == "AMEX:SPY" or referenceSymbol == "AMEX:FXI") ? 3 : 2
+    (rs1 + rsP) > requiredRS
 // took math.abs off of singlePeriodRS + rs to identify RS and not just RS/RW
 
 rsCriteria = 0
-if evaluateRSCrtieria(referenceSpy, spySinglePeriodRS, spyRS) and 
- evaluateRSCrtieria(referenceSector, sectorSinglePeriodRS, sectorRS) and 
-  evaluateRSCrtieria(referenceIndustry, industrySinglePeriodRS, industryRS)
+if evaluateRSCriteria(referenceSpy, spySinglePeriodRS, spyRS) and 
+ evaluateRSCriteria(referenceSector, sectorSinglePeriodRS, sectorRS) and 
+  evaluateRSCriteria(referenceIndustry, industrySinglePeriodRS, industryRS)
     rsCriteria := 1
 
 // rsCriteria :=  timeframe.isdaily or timeframe.isintraday ? rsCriteria : na
