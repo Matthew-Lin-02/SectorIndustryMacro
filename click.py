@@ -2,18 +2,29 @@ import pyautogui
 from pynput import keyboard
 import sys
 import argparse
-
-
+# from pprint import pprint as pp
 
 # probably a way to store the bindings directly in the config and iterate
-def make_key_methods(device):
+def make_key_methods(device, pressed, enabled):
     def on_press(key):
-        
         import pokemonConfig
-        device_config = getattr(pokemonConfig, device)
-    
-        match key:
+        pressed.add(key)
 
+        # this non local is needed due to reassignment of the variable
+        # happening which the static parser then assumes the variable is local and is being reassigned from local.
+        nonlocal enabled 
+
+        if key == keyboard.KeyCode(char='X') and keyboard.Key.shift in pressed:
+            enabled = not enabled
+            
+        if not enabled:
+            return
+        # other option is to use a mutable and just modify that value which is not a reassignment run_status = {'enabled': True}
+        # run_status['enabled'] = not run_status['enabled]
+
+        device_config = getattr(pokemonConfig, device)
+
+        match key:
             case keyboard.Key.enter | keyboard.Key.space:
                 pyautogui.click(*device_config['centre'])
             case keyboard.KeyCode(char='b'):
@@ -50,6 +61,7 @@ def make_key_methods(device):
                 return False
     
     def on_release(key):
+        pressed.discard(key)
         pass
     
     return on_press, on_release
@@ -86,8 +98,7 @@ if __name__ == "__main__":
 
     # Parse the arguments
     args = parser.parse_args()
-
-    on_press, on_release = make_key_methods(args.device)
+    on_press, on_release = make_key_methods(args.device, set(), enabled = True)
     # Create a listener for keyboard events
     with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
         listener.join()
